@@ -1,0 +1,217 @@
+<!-- Creating HTML Forms -->
+
+<!-- Catatan
+
+Form adalah sebuah tag yang digunakan untuk menampung komponen-komponen form.
+
+Beberapa atribut yang umum dipakai pada tag form adalah:
+a) method: dapat diisi dengan nilai POST ataupun GET
+
+b) action: berisi alamat tujuan website jika form telah di-submit.
+
+Komponen Form adalah sebagai berikut:
+------------------------------------
+
+- Text field: merupakan komponen yang meminta inputan berupa tulisan yang bersifat single-line.
+
+Code: <input type="text"/>
+
+- Hidden field: merupakan komponen yang bisa berisi nilai tersembunyi tanpa harus terlihat 
+oleh user yang membuka website tersebut. (inget aja materi setting token CSRF di SWP lalu)
+
+Code : <input type="hidden"/>
+
+- Textarea: merupakan komponen yang meminta inputan berupa tulisan yang bersifat multiline.
+
+Code : <textarea></textarea>
+
+- Checkbox: merupakan komponen yang dapat dipilih lebih dari satu, dimana saat
+dipilih komponen tersebut akan menampilkan tanda centang.
+
+Code :<input type="checkbox"/>
+
+-  Radio button: merupakan komponen yang dapat dipilih hanya satu dalam satu
+group, dimana saat dipilih komponen tersebut akan menampilkan tanda berupa
+bulatan hitam.
+Untuk memberikan nama group pada radio button adalah dengan menyamakan
+atribut name dari setiap radio button yang ingin dibuat satu group.
+
+Code :<input type="radio"/>
+
+- Combobox: merupakan komponen yang berupa pilihan berbentuk list yang hanya
+bisa dilihat jika diklik. Komponen ini hanya bisa dipilih salah satu saja.
+
+Code :
+<select>
+<option>Pilihan 1</option>
+<option>Pilihan 2</option>
+<option>Pilihan 3</option>
+</select>
+
+- File field: merupakan komponen yang berfungsi untuk menelusuri file untuk
+dibuka yang nantinya bisa di-upload dan sebagainya.
+
+Code : <input type="file"/>
+
+- Button: merupakan komponen berupa tombol.
+
+Terdapat 3 macam tombol, yaitu:
+o Button: merupakan tombol yang tidak bisa melakukan apa-apa, kecuali kita
+beri script yang berisi perintah untuk melakukan sesuatu.
+
+Code : <input type="button"/>
+
+o Submit : merupakan tombol yang berguna untuk mengirimkan data-data
+yang diisikan dalam sebuah form (termasuk hidden field).
+
+Code : <input type="submit"/>
+
+o Reset: merupakan tombol yang berguna untuk mengembalikan semua nilai
+dari komponen-komponen form menjadi nilai awalnya.
+
+Code : <input type="reset"/>
+
+
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>HTML Form</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="../../../css/modern-business.css" rel="stylesheet">
+    <!-- Bootstrap core JavaScript -->
+ <script src="../../../vendor/jquery/jquery.min.js"></script>
+ <script src="../../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</head>
+    <body>
+        
+            <table border="1" width="800">
+                 <!-- Row for Header -->
+                        <tr>
+                         <td colspan="2">
+                             <h1 class="lead">HTML Form
+                                 <br>
+                                 This is a simple HTML Form Demo
+                             </h1>
+                        </td>
+                        </tr>
+                
+                        <!-- Row For Content -->
+                         <tr>
+                            <td width="200">
+                                <strong>Menu</strong><br><br>
+                                - <a href="profile - with CSS.html">Profile</a> <br>
+                                - <a href="Form - with CSS.html">Register</a> <br>
+                                <br><br>
+                            </td>
+                            
+                            <td><strong>Register Here For a Premium Gensokyo Membership!</strong>
+                               <br><br>
+
+                               <!-- SECTION FORM  -->
+
+                               <form>
+                                    
+                                    <!-- Text field -->
+                                    Namamu : <br><input type="text" name="nama" id="nama"></input> <br><br>
+                                    
+                                    <!--  Text area -->
+                                    Masukkan cerita tentang dirimu: <br><textarea name="desc" id="desc"></textarea> <br><br>
+                                    
+                                    <!-- Checkbox -->
+                                    Apakah Kamu : <br>
+                                    <input type="checkbox" name="manusia" id="manusia">Manusia<br>
+                                    <input type="checkbox" name="Siluman" id="Siluman">Siluman
+                                    <br><br>
+
+                                    <!-- Radio Button -->
+                                    Gendermu :
+                                    <input type="radio" name="gender" id="Pria"> Pria
+                                    <input type="radio" name="gender" id="Wanita"> Wanita
+                                    <br><br>
+
+                                    <!-- Combo Box -->
+                                    Sebelumnya, kamu ini berasal dari mana?
+                                            <select name="asal" id="asal">
+                                            <option>- Pick an Option -</option>
+                                            <option>Warga Bumi</option>
+                                            <option>Warga Isekai</option>
+                                            <option>Warga Makai</option>
+                                            </select>
+                                    <br><br><br>
+
+                                    <!-- File Upload  -->
+                                    Upload KTP-mu <br><br>
+                                    <input type="file"  name="ktp" id="ktp">
+                                    <br><br>
+                                    
+                                     <!-- Button input -->
+                                     Cek Profil : <br>
+                                     <input type="button" value="Cek" onclick="msg()">
+
+                                     <!-- Extra - Make Action if a button is pressed -->
+                                     <script>
+                                            function msg() {
+                                              alert("Please Wait for a sec . . . ");
+                                              window.open("profile - with CSS.html");
+                                            }
+                                    </script>
+
+
+                                    <br><br>
+                                    <!-- Submit Form Button -->
+                                    <input type="submit" value="save"> Submit Form
+                                    <br><br>
+                                    <!-- Reset All -->
+                                    <input type="reset" value="reset"> Reset Form
+                               </form>
+    
+                               <!--  END OF SECTION FORM  -->
+                            </td>
+                         </tr>
+                
+                         <!-- Row For Footer  -->
+                         <tr>
+                            <td colspan="2"><strong>Footer</strong>
+                            <br><br>
+                            <center>
+                                    <p class="lead">Want to see original page view?</p> <br>
+                                    
+                                    <a href="Form.html" class="btn btn-white bg-success text-white"><b>View Page</b></a>
+                                    <br><br>
+                            
+                                    <p class="lead">Done Viewing the Demo?</p> <br>
+                                    
+                                    <a href="../Menu-HCI.html" class="btn btn-white bg-success text-white"><b>Go Back to panel</b></a>
+                                    <br></center><br><br><br>
+                            </td>
+                        </tr>
+                        </table>
+
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>

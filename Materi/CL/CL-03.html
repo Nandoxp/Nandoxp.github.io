@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>HackerJinja V.2.0</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="../../css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <style> *{ font-family: "Lexend Deca"; }  </style>
+    
+     
+</head>
+
+<!-- Brand Navbar -->
+<nav class="navbar bg-success ">
+<header>
+    <h1 class="h3  mb-2 text-white font-weight-bold text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HackerJinja</h1>
+</header>
+<a href="../../about.html" class="nav-item text-white"> About</a>
+</nav>
+
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar nav (EDIT THIS !) -->
+    <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
+        <!-- Sidebar - Brand -->
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#"><div class="sidebar-brand-text mx-3">Menu</div></a>
+        
+        <!-- Divider -->
+        <hr class="sidebar-divider my-0">
+
+        <!-- Nav Item - Dashboard -->
+        <li class="nav-item"><a class="nav-link" href="../../index.html"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+          
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading active text-white">Cyber Security</div>   
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item"> 
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages"><i class="fas fa-fw fa-folder"></i>
+          <span>Courses</span></a>
+          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Available Courses</h6>
+              <a class="collapse-item" href="../CF/Menu-CF.html">Cyber Forensic</a>
+              <a class="collapse-item" href="Menu-CL.html">Cyber Law</a>
+              <a class="collapse-item" href="../HCI/Menu-HCI.html">Human & Computer<br> Interaction</a>
+              <a class="collapse-item" href="../OS/Menu-OS.html">Operating System</a>
+              <a class="collapse-item" href="../AI/Menu-AI.html">Artificial Intelligence</a>
+              <a class="collapse-item" href="../E2/Menu-E2.html">Entrepreneurship 2</a>
+          </div></div></li>
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item"><a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities"><i class="fas fa-fw fa-folder"></i>
+        <span>Lab</span></a>
+        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">       
+            <a class="collapse-item" href="../../Lab/HCI/Menu-HCI.html">Human & Computer <br> Interaction</a>             
+            <a class="collapse-item" href="../../Lab/CF/Menu-CF.html">Cyber Forensic</a>
+            <a class="collapse-item" href="../../Lab/OS/Menu-OS.html">Operating System</a>
+          </div></div></li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider d-none d-md-block">
+
+        <!-- Sidebar Toggler (Sidebar) -->
+        <div class="text-center d-none d-md-inline"><button class="rounded-circle border-0" id="sidebarToggle"></button></div>
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <!-- Main Content -->
+      <div id="content">
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow ">
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3"><i class="fa fa-bars"></i> </button>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bell fa-fw"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">1</span> </a>
+              <!-- Dropdown - Alerts -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header bg-dark">Alerts Center </h6>
+                <!-- Alert Messages -->
+                <a class="dropdown-item d-flex align-items-center" href="#">   
+                  <div class="mr-3"><div class="icon-circle bg-success"><i class="fas fa-file-alt text-white"></i></div></div>
+                  <div><div class="small text-gray-500">August 17, 2019</div><span>New GUI for HackerJinja</span> </div>
+                </a>
+                <!-- Add new Alert in here -->
+              </div>
+            </li>
+
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-envelope fa-fw"></i>
+                <!-- Counter - Messages -->
+                <span class="badge badge-danger badge-counter">1</span>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown"><h6 class="dropdown-header bg-dark"> Message Center</h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <!-- New Message -->
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="../../images/marisa kecil.jpg" alt=""><div class="status-indicator bg-success"></div>
+                  </div>
+                  <div class="font-weight-bold">
+                    <div class="text-truncate">Welcome to HackerJinja</div><div class="small text-gray-500">Yonathan Wieliem</div>
+                  </div>
+                </a>
+                <!-- Add New Message in here -->
+              </div> </li><div class="topbar-divider d-none d-sm-block"></div>
+  
+          </ul>
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- SECTION CONTENT. FILL YOUR CONTENT IN HERE !!! -->
+          <div class="jumbotron bg-success text-white">
+            <h1>Broadcasting Regulation</h1>
+         </div>
+    
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item">
+                <a class="text-success" href="../../index.html">Home</a>
+              </li>
+                <li class="breadcrumb-item"> Materi </li>
+              <li class="breadcrumb-item "> <a  class="text-success" href="Menu-CL.html">Cyber Law</a></li>
+              <li class="breadcrumb-item active">Chapter-03 </li>
+        </ol>
+    
+        <!-- Content Row -->
+        <div class="row">
+          <!-- Sidebar Column -->
+          <div class="col-lg-3 mb-4"> 
+            <div class="list-group">
+              <a href="CL-01.html" class="list-group-item text-success">The Fundamental Technology</a>
+              <a href="CL-02.html" class="list-group-item text-success">Internet Cyber Regulation</a>
+              <a href="CL-03.html" class="list-group-item  active-success text-white bg-success">Broadcasting Regulation</a>
+              <a href="CL-04.html" class="list-group-item  text-success">Telecommunication Regulation</a>
+              <a href="CL-05.html" class="list-group-item  text-success">Indonesia Media Law</a>
+              <a href="CL-06.html" class="list-group-item  text-success">Introduction to Information Privacy Law</a>
+              <a href="CL-07.html" class="list-group-item  text-success">Privacy and Media</a>
+              <a href="CL-08.html" class="list-group-item  text-success">IPR in Digital Era</a>
+              <a href="CL-09.html" class="list-group-item  text-success">Introduction to law and economic</a>
+              <a href="CL-10.html" class="list-group-item  text-success">Cyber Crime</a>
+              <a href="CL-11.html" class="list-group-item  text-success">Freedom of Expression and Information</a>
+              <a href="CL-12.html" class="list-group-item  text-success">Defamation</a>
+              <!-- active -->
+             
+            </div>
+          </div>
+          <!-- Content Column -->
+          <div class="col-lg-9 mb-4">
+         <br>
+    
+            <p class="lead text-success">Undang-undang yang mengatur tentang broadcasting</p><hr>
+            <p>
+                1.  UU No. 36 Tahun 1999 tentang Telekomunikasi <br>
+                2.  UU No. 11 Tahun 1985 tentang Pengesahan Konensi Telekomunikasi Internasional<br>
+                3.  UU No. 7 Tahun 1971 tentang Ketentuan Pokok Kearsipan<br>
+                4.  UU No. 8 Tahun 1997 tentang Dokumen Perusahaan<br>
+                5.  UU No. 4 Tahun 1990 tentang Serah-Simpan Karya Cetak dan Karya Rekam<br>
+                6.  UU No. 32 Tahun 2002 tentang Penyiaran<br>
+                7.  UU No. 40 Tahun 1999 tentang Pers<br>
+                8.  UU No. 8 Tahun 2002 tentang Perfilman<br>
+                9.  UU No. 5 Tahun 1999 tentang Larangan Praktik Monopoli dan Persaingan Usaha Tidak Sehat<br>
+                10. UU No. 8 Tahun 1999 tentang Perlindungan Konsumen<br>
+                11. UU No. 6 Tahun 1961 tentang Perjanjian Internasional mengenai Pengiriman Berita Jarak Jauh<br>
+                12. UU No. 18 Tahun 2002 tentang Sistem Nasional Penelitian, Pengembangan, dan Penerapan Ilmu Pengetahuan dan Teknologi<br>
+            </p><br>
+    
+            <p class="lead text-success">Penerapan Hukum di Media Cetak</p><hr>
+            <p>
+              Pers VS KUHP<br><br>
+              <b>Pasal 12 UU No. 40 Tahun 1999 :</b><br>
+              1. Media cetak memuat kolom nama, alamat dan penanggungjawab penerbitan serta nama dan alamat percetakan
+              <br>2. Media elektronik menyiarkan nama, alamat, dan penanggungjawabnya paa awal atau setiap akhir siaran karya jurnalistik
+              <br>3. Media lainnya menyesuaikan dengan bentuk, sifat dan karakter media yang bersangkutan
+    
+              <br><br>
+    
+             <b>  Pasal 55 ayat (1) KUHP :</b><br>
+             <br> Ke-1: Mereka yang melakukan, yang menyuruh lakukan dan yang turut serta melakukan perbuatan
+             <br>Ke-2: Mereka yang dengan memberi atau menjanjikan sesuatu, dengan menyalahgunakan kekuasaan atau martabat, dengan kekerasan, ancaman atau penyesatan, atau dengan memberi kesempatan, sarana atau keterangan sengaja menganjurkan orang lain supaya melakukan perbuatan
+    
+            </p><br>
+    
+            <p class="lead text-success">Pers dan KUH Perdata</p><hr>
+            <p>
+                <b>Pasal 1367 :</b> <br>
+                Tiap perbuatan yang melanggar hukum dan membawa kerugian kepada orang lain, mewajibkan orang yang menimbulkan kerugian itu, karena kesalahannya untuk menggantikan kerugian tersebut.
+                
+            </p><br>
+    
+            <p class="lead text-success">Pers dapat melanggar apabila :</p><hr>
+            <p>
+                    1. Kebijakan Bertentangan dengan kewajiban hukum
+                <br>2. Kebijakan Melanggar hak subjektif
+                <br>3. Kebijakan Melanggar kaidah tata susila
+                <br>4. Kebijakan Bertentangan dengan kepatutan
+                
+            </p><br>
+    
+            <p class="lead text-success">New Media (Internet)</p><hr>
+            <p>
+                Beberapa alasan mengapa internet dimasukkan ke dalam media baru:<br>
+                1. Munculnya di Indonesia pada awal tahun 90an <br>
+                2. Merubah semua tatanan cara berkomunikasi <br>
+                3. Memaksa masyarakat dunia membuat aturan baru berkaitan dengan media massa
+                
+            </p>
+    
+  
+            </div>
+          </div>
+
+        <!-- END OF SECTION CONTENTS -->
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white"><div class="container my-auto"><div class="copyright text-center my-auto">
+            <span>Copyright &copy; Shinichi Nazakato 2019</span>
+          </div></div>
+      </footer>
+      <!-- End of Footer -->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+  <!-- End of Page Wrapper -->
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+ <!-- JS SCRIPTS -->
+  <script src="../../vendor/jquery/jquery.min.js"></script><script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script><script src="../../vendor/jquery-easing/jquery.easing.min.js"></script><script src="../../js/sb-admin-2.min.js"></script>
+</body></html>
+
+

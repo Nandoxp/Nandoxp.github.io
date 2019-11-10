@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>HackerJinja V.2.0</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="../../css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <style> *{ font-family: "Lexend Deca"; }  </style>
+    
+     
+</head>
+
+<!-- Brand Navbar -->
+<nav class="navbar bg-success ">
+<header>
+    <h1 class="h3  mb-2 text-white font-weight-bold text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HackerJinja</h1>
+</header>
+<a href="../../about.html" class="nav-item text-white"> About</a>
+</nav>
+
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar nav (EDIT THIS !) -->
+    <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
+        <!-- Sidebar - Brand -->
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#"><div class="sidebar-brand-text mx-3">Menu</div></a>
+        
+        <!-- Divider -->
+        <hr class="sidebar-divider my-0">
+
+        <!-- Nav Item - Dashboard -->
+        <li class="nav-item"><a class="nav-link" href="../../index.html"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+          
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading active text-white">Cyber Security</div>   
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item"> 
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages"><i class="fas fa-fw fa-folder"></i>
+          <span>Courses</span></a>
+          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Available Courses</h6>
+              <a class="collapse-item" href="../CF/Menu-CF.html">Cyber Forensic</a>
+              <a class="collapse-item" href="../CL/Menu-CL.html">Cyber Law</a>
+              <a class="collapse-item" href="../HCI/Menu-HCI.html">Human & Computer<br> Interaction</a>
+              <a class="collapse-item" href="../OS/Menu-OS.html">Operating System</a>
+              <a class="collapse-item" href="../OS/Menu-OS.html">Artificial Intelligence</a>
+              <a class="collapse-item" href="Menu-E2.html">Entrepreneurship 2</a>
+          </div></div></li>
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item"><a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities"><i class="fas fa-fw fa-folder"></i>
+        <span>Lab</span></a>
+        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">       
+            <a class="collapse-item" href="../../Lab/HCI/Menu-HCI.html">Human & Computer <br> Interaction</a>             
+            <a class="collapse-item" href="../../Lab/CF/Menu-CF.html">Cyber Forensic</a>
+            <a class="collapse-item" href="../../Lab/OS/Menu-OS.html">Operating System</a>
+          </div></div></li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider d-none d-md-block">
+
+        <!-- Sidebar Toggler (Sidebar) -->
+        <div class="text-center d-none d-md-inline"><button class="rounded-circle border-0" id="sidebarToggle"></button></div>
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <!-- Main Content -->
+      <div id="content">
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow ">
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3"><i class="fa fa-bars"></i> </button>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bell fa-fw"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">1</span> </a>
+              <!-- Dropdown - Alerts -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header bg-dark">Alerts Center </h6>
+                <!-- Alert Messages -->
+                <a class="dropdown-item d-flex align-items-center" href="#">   
+                  <div class="mr-3"><div class="icon-circle bg-success"><i class="fas fa-file-alt text-white"></i></div></div>
+                  <div><div class="small text-gray-500">August 17, 2019</div><span>New GUI for HackerJinja</span> </div>
+                </a>
+                <!-- Add new Alert in here -->
+              </div>
+            </li>
+
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-envelope fa-fw"></i>
+                <!-- Counter - Messages -->
+                <span class="badge badge-danger badge-counter">1</span>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown"><h6 class="dropdown-header bg-dark"> Message Center</h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <!-- New Message -->
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="images/marisa kecil.jpg" alt=""><div class="status-indicator bg-success"></div>
+                  </div>
+                  <div class="font-weight-bold">
+                    <div class="text-truncate">Welcome to HackerJinja</div><div class="small text-gray-500">Yonathan Wieliem</div>
+                  </div>
+                </a>
+                <!-- Add New Message in here -->
+              </div> </li><div class="topbar-divider d-none d-sm-block"></div>
+  
+          </ul>
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- SECTION CONTENT. FILL YOUR CONTENT IN HERE !!! -->
+         
+
+             <!-- Page Heading/Breadcrumbs -->
+             <div class="jumbotron bg-success text-white">
+              <h1>Introduction , Value proposition, Customer Segments</h1>
+           </div>
+        
+          <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                  <a class="text-success" href="../../index.html">Home</a>
+                </li>
+                  <li class="breadcrumb-item"> Materi </li>
+                <li class="breadcrumb-item "> <a  class="text-success" href="Menu-E2.html">Entrepreneurship 2</a></li>
+                <li class="breadcrumb-item active">Chapter-01 </li>
+          </ol>
+        
+          <!-- Content Row -->
+          <div class="row">
+            <!-- Sidebar Column -->
+            <div class="col-lg-3 mb-4">
+              <div class="list-group">
+                <a href="E2-01.html" class="list-group-item active-success text-white bg-success">Introduction , Value proposition, Customer Segments</a>
+                <a href="E2-02.html" class="list-group-item  text-success">Business model overview</a>
+                <a href="E2-03.html" class="list-group-item  text-success">Channels & Customer Relationships</a>
+                <a href="E2-04.html" class="list-group-item  text-success">Marketing</a>
+                <a href="E2-05.html" class="list-group-item  text-success">Operation Management</a>
+                <a href="E2-06.html" class="list-group-item  text-success">Key Resource, Key Activities, Key Partnerships</a>
+                <a href="E2-07.html" class="list-group-item  text-success">Revenue Streams & Cost Structure</a>
+                <a href="E2-08.html" class="list-group-item  text-success">Finance</a>
+                <a href="E2-09.html" class="list-group-item  text-success">Prototyping</a>
+                <a href="E2-10.html" class="list-group-item  text-success">Business Model Pattern</a>
+                <a href="E2-11.html" class="list-group-item  text-success">Investement</a>
+                <a href="E2-12.html" class="list-group-item  text-success">Intellectual Property Rights</a>
+                <a href="E2-13.html" class="list-group-item  text-success">Final Presentation</a>
+                <!-- active -->
+               
+              </div>
+            </div>
+            <!-- Content Column -->
+            <div class="col-lg-9 mb-4">
+              <!-- Materi isi disini ya -->
+           <p class="lead text-success">Introduction</p><hr>
+              <p>
+            Value Proposition bekerja untuk:<br><br>
+           <b> Usaha baru</b><br>
+            Individu atau tim berangkat untuk menciptakan proposisi dan model bisnis yang bernilai tinggi dari nol
+            <br><br>
+            Tantangan utama :
+            <br>•	Hasilkan bukti bahwa ide-ide Anda dapat bekerja dengan anggaran terbatas
+            <br>•	Kelola keterlibatan investor (jika Anda mengukur ide-ide Anda)
+            <br>•	Ambil risiko kehabisan uang sebelum menemukan proposisi nilai yang tepat dan model bisnis
+            <br><br>
+            Peluang utama :
+            <br>•	Gunakan pengambilan keputusan yang cepat dan kelincahan untuk keuntungan Anda
+            <br>•	Pengaruhi motivasi kepemilikan sebagai pendorong kesuksesan
+            
+                <br><br>
+
+            <b>Usaha yang sudah terorganisir</b><br>
+            Tim-tim dalam perusahaan yang ada berangkat untuk meningkatkan atau menemukan proposisi nilai dan model bisnis
+            <br><br>
+            Tantangan utama :
+            <br>•	Bangun di atas proposisi nilai yang ada dan model bisnis
+            <br>•	mempengaruhi aset yang ada (penjualan, channel, merek, dll.)
+            <br>•	Bangun portofolio model bisnis dan proposisi nilai
+            <br><br>
+            Peluang utama : 
+            <br>•	Dapatkan dukungan dari manajemen puncak
+            <br>•	Mendapat akses ke resource yg udah ada
+            <br>•	Mengatasi risiko yang mungkin terjadi
+            <br>•	Mengatasi proses yang kaku dan lambat
+            <br>•	Mengelola risiko karier para inovator
+            
+           </p><br>
+
+           <p class="lead text-success">Customer Segments</p><hr>
+           <p>
+            Customer segments menentukan berbagai kelompok orang atau organisasi yang berbeda dimana perusahaan bertujuan untuk menjangkau dan melayani mereka. 
+           <br><br>
+            Grup customer mewakili segmen terpisah jika:
+            <br>•	Kebutuhan mereka membutuhkan dan membenarkan tawaran yang berbeda
+            <br>•	Mereka dihubungi melalui Saluran Distribusi yang berbeda
+            <br>•	Mereka membutuhkan berbagai jenis hubungan
+            <br>•	Mereka memiliki profitabilitas yang sangat berbeda
+            <br>•	Mereka bersedia membayar untuk berbagai aspek penawaran
+            <br><br>
+            Perbedaan tipe-tipe customer segments
+            <br>•	Mass market
+            <br>•	Niche Market
+            <br>•	Diversified
+            <br>•	Segmented
+            <br>•	Multi-sided platforms
+            
+           </p><br>
+
+           <p class="lead text-success">Customer Profile</p><hr>
+           <p>
+            Menjelaskan secara spesifik customer segment dalam business model dengan terstruktur dan mendetail. Kita bisa memecah segmen customer menjadi customer job, pain dan gain. 
+           <br><br>
+            <b>•	Customer jobs</b><br>
+            Apa yang customer mencoba dapatkan dalam pekerjaan mereka dan dalam hidup mereka, sebagaimana diekspresikan dengan kata2 mereka.
+            <br><br>
+            Customer jobs masih dibagi lagi menjadi :
+            <br>•	Functional job
+            <br>•	Social job
+            <br>•	Personal / Emotional job
+            <br>•	Supporting job
+            <br><br>
+            •	<b>Customer pains</b><br>
+            hasil yang buruk, risiko dan halangan terkait dengan customer jobs
+            <br><br>
+            Customer pains masih dibagi lagi menjadi :
+            <br>•	Rintangan 
+            <br>•	Risiko hasil tak terduga potensial
+            <br>•	Hasil tak terduga, masalah dan karakteristik
+            <br><br>
+            <b>•	Customer gains</b><br>
+            Hasil yang ingin diraih oleh customer / benefit yang mereka cari
+            <br><br>
+            Customer gains masih dibagi lagi menjadi :<br>
+            •	Required gains<br>
+            •	Expected gains<br>
+            •	Desired gains<br>
+            •	Unexpected gains<br>
+            
+
+           </p><br>
+
+           <p class="lead text-success">Value Proposition</p><hr>
+           <p>
+            Menjelaskan bundel produk dan layanan yang menciptakan nilai untuk Segmen Pelanggan tertentu
+            <br><br>
+            •	Nilai apa yang kita berikan kepada pelanggan?
+           <br> •	Salah satu masalah pelanggan kita mana yang kami bantu selesaikan?
+           <br> •	Kebutuhan pelanggan mana yang kita memuaskan?
+           <br> •	Bundel produk dan layanan apa yang kita tawarkan untuk setiap Segmen Pelanggan?
+           <br><br><br>
+           <b>Hal-hal yang dibahas dalam value proposition:</b> <br>
+            •	Kebaruan sebuah produk<br>
+            •	Performance produk<br>
+            •	Kustomisasi produk<br>
+            •	Brand dan status<br>
+            •	Desain<br>
+            •	Apakah produk bisa menyelesaikan masalah / ga<br>
+            •	Harga<br>
+            •	Cost reduction<br>
+            •	Risk reduction<br>
+            •	Kenyamanan / mudah dipakai<br>
+            •	Aksesibilitas <br>
+           <br><br>
+            <b class="lead text-success">Value map</b> <hr> 
+            Disini value map menjelaskan fitur-fitur dari VP secara spesifik dalam model bisnis anda secara terstruktur dan mendetail. Value map melakukan breakdown VP menjadi 3 bagian, yaitu : 
+            <br><br>  <b>•		Product & Services</b>
+            <br>Ini isinya adalah list dari semua produk dan service dari VP yang dibuat. Masih dibagi lagi menjadi:
+            <br>
+            -	Berwujud <br>
+            -	Tidak berwujud<br>
+            -	Digital<br>
+            -	Financial
+            <br><br>
+          <b> •	Pain Relievers</b> <br>
+            Bagaimana product dan service kita bisa mengurangi pain dari customer.
+            Tanyakan pada diri sendiri: Bisakah produk dan layanan Anda ...
+            
+           <br><br> - <b class="text-success">menghasilkan penghematan?</b> Dalam hal waktu, uang, atau upaya.
+           <br><br>  - <b class="text-success">membuat pelanggan Anda merasa lebih baik?</b>	 Dengan membunuh frustrasi, gangguan, dan hal-hal lain yang membuat pelanggan pusing.
+           <br><br>  - <b class="text-success">	memperbaiki solusi yang berkinerja buruk? </b>Dengan memperkenalkan fitur-fitur baru, kinerja yang lebih baik, atau kualitas yang ditingkatkan.
+           <br><br>  -	<b class="text-success">mengakhiri kesulitan dan tantangan yang dihadapi pelanggan Anda? </b>Dengan membuat segalanya lebih mudah atau menghilangkan hambatan.
+           <br><br> - <b class="text-success">	hapus konsekuensi sosial negatif yang ditemui pelanggan Anda atau ketakutan?</b> Dalam hal kehilangan muka atau kehilangan kekuatan, kepercayaan, atau status.
+           <br><br> - <b class="text-success">	menghilangkan risiko yang ditakuti pelanggan Anda?</b> Dalam hal risiko keuangan, sosial, teknis, atau hal-hal yang berpotensi salah.
+           <br><br>  - <b class="text-success">membantu pelanggan Anda tidur lebih baik di malam hari?</b>	 Dengan mengatasi masalah signifikan, mengurangi kekhawatiran, atau menghilangkan kekhawatiran.
+           <br><br>  -	<b class="text-success">membatasi atau membasmi kesalahan umum yang dilakukan pelanggan?</b> Dengan membantu mereka menggunakan solusi dengan cara yang benar.
+           <br><br>  -	<b class="text-success">menghilangkan hambatan yang membuat pelanggan Anda tidak mengadopsi proposisi nilai? </b>Memperkenalkan biaya investasi awal yang lebih rendah atau tidak sama sekali, kurva pembelajaran yang lebih datar, atau menghilangkan hambatan lain yang mencegah adopsi.
+            
+           <br><br>
+            <b>•	Gain Creators</b><br>
+            Bagaimana produk dan service kita bisa membuat customer bertambah.
+            Tanyakan pada diri sendiri: Bisakah produk dan layanan Anda ...
+            <br><br> - <b class="text-success">	buat penghematan yang menyenangkan pelanggan Anda?</b> Dalam hal waktu, uang, dan usaha.
+            <br><br> - <b class="text-success">	menghasilkan hasil yang diharapkan pelanggan Anda atau yang melebihi harapan mereka? </b>Dengan menawarkan tingkat kualitas, lebih dari sesuatu, atau kurang dari sesuatu.
+            <br><br>  -	 <b class="text-success">mengungguli proposisi nilai saat ini dan menyenangkan pelanggan Anda? </b>Mengenai fitur, kinerja, atau kualitas tertentu.
+            <br><br>-	<b class="text-success">membuat hidup atau kehidupan pelanggan Anda lebih mudah?</b> Melalui kegunaan yang lebih baik, aksesibilitas, lebih banyak layanan, atau biaya kepemilikan yang lebih rendah.
+            <br><br> -	<b class="text-success">menciptakan konsekuensi sosial yang positif?</b> Dengan membuatnya terlihat bagus atau menghasilkan peningkatan kekuatan atau status
+            <br><br> -	<b class="text-success">melakukan sesuatu yang spesifik yang dicari pelanggan?</b> Dalam hal desain yang baik, jaminan, atau fitur spesifik atau lebih.
+            <br><br>  -	<b class="text-success">memenuhi keinginan pelanggan tentang impian? </b>Dengan membantu mereka mencapai aspirasi mereka atau mendapatkan bantuan dari kesulitan?
+            <br><br>-	<b class="text-success">menghasilkan hasil positif yang cocok dengan kriteria kesuksesan dan kegagalan pelanggan Anda?</b> Dalam hal kinerja yang lebih baik atau biaya lebih rendah.
+            <br><br> -	<b class="text-success">membantu mempermudah adopsi? </b>Melalui biaya lebih rendah, investasi lebih sedikit, risiko lebih rendah, kualitas lebih baik, peningkatan kinerja, atau desain yang lebih baik.
+            
+           </p>
+
+
+
+
+
+                
+        
+              </div>
+          </div>
+
+
+
+        <!-- END OF SECTION CONTENTS -->
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white"><div class="container my-auto"><div class="copyright text-center my-auto">
+            <span>Copyright &copy; Shinichi Nazakato 2019</span>
+          </div></div>
+      </footer>
+      <!-- End of Footer -->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+  <!-- End of Page Wrapper -->
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+ <!-- JS SCRIPTS -->
+  <script src="../../vendor/jquery/jquery.min.js"></script><script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script><script src="../../vendor/jquery-easing/jquery.easing.min.js"></script><script src="../../js/sb-admin-2.min.js"></script>
+</body></html>
+
+

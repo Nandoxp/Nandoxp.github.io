@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Intro CSS 01</title>
+    <link rel="stylesheet" href="CSS-External/styles.css">
+</head>
+
+<body>
+    
+    <!-- How I Create Inner CSS to do some sytling on a text -->
+    <style>
+    .lead{
+        color: rgb(255, 0, 0);
+    }
+    .ext{
+        font-family: Nirmala UI;
+    }
+    .teks{
+        font-family: Nirmala UI;
+    }
+    </style>
+
+
+    <!-- This Section uses External CSS, located oon folder CSS-External -->
+
+    <!-- Creating a Header with a logo -->
+    <header>
+            <img id="logo" src="../../../images/css.png" alt="">
+            &nbsp;<span> CSS Website</span>
+    </header>
+
+    <!-- Create Navbar -->
+      <nav>
+        <div class="item"> <a href="">&nbsp;&nbsp;Home&nbsp;&nbsp;</a></div>
+        <div class="item"><a href="">&nbsp;&nbsp;Order&nbsp;&nbsp;</a></div>
+        <div class="item"><a href="">&nbsp;&nbsp;About Us&nbsp;&nbsp;</a></div>
+     </nav>
+
+     <br><br>
+    <!-- Create a Hoverable animation for a content -->
+     <div id="content">
+           <center> <img src="../../../images/marisaa.gif" alt=""> </center>
+    </div>
+    <!-- End of External CSS Sections -->
+    
+    <!-- To Prove the Inner CSS, Let's try this -->
+     <center><p class="lead ext"> If u can read this, This Text uses Inner CSS . anyway try to hover the GIF Picture to see the effect of the External CSS</div></center>
+    
+        <hr>
+    
+    <p class="ext" > <h1 class="teks"> Catatan </h1> 
+                CSS Position:<br>
+                1. Static (default)<br>
+                2. Relative: ada Top, Bottom, Left, Right<br>
+                3. Absolute (following parent position that is not Static) 
+                <br><br>
+                Display:<br>
+                1. Block (sesuai width dan height utk menampung konten)<br>
+                2. Inline (menyesuaikan width dan height utk menampung konten dan sejalur)<br>
+                3. Block Inline (sesuai width dan height utk menampung konten, tetapi sejalur)<br>
+        </p>
+    
+   <hr>
+   <nav>
+   <div class="exit"><a href="../Menu-HCI.html">&nbsp;&nbsp;Go Back to Panel&nbsp;&nbsp;</a></div></nav>
+        <br><br><br>
+</body>
+</html>

@@ -1,0 +1,20 @@
+*, body{
+    margin: 0px;
+    padding: 0px;
+}
+
+#kotak{
+    width: 100px;
+    height: 100px;
+    background: green;
+}
+
+#slider{
+    width: 371px;
+    overflow: hidden;
+}
+
+#slides{
+    display: flex;
+    position: relative;
+}

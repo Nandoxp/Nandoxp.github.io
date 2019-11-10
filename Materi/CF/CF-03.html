@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>HackerJinja V.2.0</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="../../css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <style> *{ font-family: "Lexend Deca"; }  </style>
+    
+     
+</head>
+
+<!-- Brand Navbar -->
+<nav class="navbar bg-success ">
+<header>
+    <h1 class="h3  mb-2 text-white font-weight-bold text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HackerJinja</h1>
+</header>
+<a href="../../about.html" class="nav-item text-white"> About</a>
+</nav>
+
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar nav (EDIT THIS !) -->
+    <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
+        <!-- Sidebar - Brand -->
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#"><div class="sidebar-brand-text mx-3">Menu</div></a>
+        
+        <!-- Divider -->
+        <hr class="sidebar-divider my-0">
+
+        <!-- Nav Item - Dashboard -->
+        <li class="nav-item"><a class="nav-link" href="../../index.html"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+          
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading active text-white">Cyber Security</div>   
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item"> 
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages"><i class="fas fa-fw fa-folder"></i>
+          <span>Courses</span></a>
+          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Available Courses</h6>
+              <a class="collapse-item" href="Menu-CF.html">Cyber Forensic</a>
+              <a class="collapse-item" href="../CL/Menu-CL.html">Cyber Law</a>
+              <a class="collapse-item" href="../HCI/Menu-HCI.html">Human & Computer<br> Interaction</a>
+              <a class="collapse-item" href="../OS/Menu-OS.html">Operating System</a>
+              <a class="collapse-item" href="../AI/Menu-AI.html">Artificial Intelligence</a>
+              <a class="collapse-item" href="../E2/Menu-E2.html">Entrepreneurship 2</a>
+          </div></div></li>
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item"><a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities"><i class="fas fa-fw fa-folder"></i>
+        <span>Lab</span></a>
+        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">       
+            <a class="collapse-item" href="../../Lab/HCI/Menu-HCI.html">Human & Computer <br> Interaction</a>             
+            <a class="collapse-item" href="../../Lab/CF/Menu-CF.html">Cyber Forensic</a>
+            <a class="collapse-item" href="../../Lab/OS/Menu-OS.html">Operating System</a>
+          </div></div></li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider d-none d-md-block">
+
+        <!-- Sidebar Toggler (Sidebar) -->
+        <div class="text-center d-none d-md-inline"><button class="rounded-circle border-0" id="sidebarToggle"></button></div>
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <!-- Main Content -->
+      <div id="content">
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow ">
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3"><i class="fa fa-bars"></i> </button>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bell fa-fw"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">1</span> </a>
+              <!-- Dropdown - Alerts -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header bg-dark">Alerts Center </h6>
+                <!-- Alert Messages -->
+                <a class="dropdown-item d-flex align-items-center" href="#">   
+                  <div class="mr-3"><div class="icon-circle bg-success"><i class="fas fa-file-alt text-white"></i></div></div>
+                  <div><div class="small text-gray-500">August 17, 2019</div><span>New GUI for HackerJinja</span> </div>
+                </a>
+                <!-- Add new Alert in here -->
+              </div>
+            </li>
+
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-envelope fa-fw"></i>
+                <!-- Counter - Messages -->
+                <span class="badge badge-danger badge-counter">1</span>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown"><h6 class="dropdown-header bg-dark"> Message Center</h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <!-- New Message -->
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="../../images/marisa kecil.jpg" alt=""><div class="status-indicator bg-success"></div>
+                  </div>
+                  <div class="font-weight-bold">
+                    <div class="text-truncate">Welcome to HackerJinja</div><div class="small text-gray-500">Yonathan Wieliem</div>
+                  </div>
+                </a>
+                <!-- Add New Message in here -->
+              </div> </li><div class="topbar-divider d-none d-sm-block"></div>
+  
+          </ul>
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- SECTION CONTENT. FILL YOUR CONTENT IN HERE !!! -->
+          <div class="jumbotron bg-success text-white">
+            <!-- Page Heading/Breadcrumbs -->
+            <h1>Digital Forensic Tools</h1>
+        </div>
+        <ol class="breadcrumb ">
+          <li class="breadcrumb-item text-success">
+              <a class="text-success" href="../../index.html">Home</a>
+            </li>
+              <li class="breadcrumb-item "> Materi </li>
+            <li class="breadcrumb-item  "> <a class="text-success" href="Menu-CF.html">Cyber Forensic</a></li>
+            <li class="breadcrumb-item active ">Chapter-03 </li>
+      </ol>
+
+<!-- Content Row -->
+<div class="row">
+  <!-- Sidebar Column -->
+  <div class="col-lg-3 mb-4">
+    <div class="list-group">
+        <a href="CF-01.html" class="list-group-item  text-success">Introduction to Cyber Forensic</a>
+        <a href="CF-02.html" class="list-group-item text-success">Key Technical Concepts</a>
+        <a href="CF-03.html" class="list-group-item active-success text-white bg-success">Digital Forensic Tools</a>
+        <a href="CF-04.html" class="list-group-item text-success">Collecting Evidence</a>
+        <a href="CF-05.html" class="list-group-item text-success">Windows System Artifacts</a>
+        <a href="CF-06.html" class="list-group-item text-success">Antiforensics</a>
+        <a href="CF-07.html" class="list-group-item text-success">Internet & Email Forensic</a>
+        <a href="CF-08.html" class="list-group-item text-success">Legal Issues in Digital Forensic</a>
+        <a href="CF-09.html" class="list-group-item text-success">Network Forensics</a>
+        <a href="CF-10.html" class="list-group-item text-success">Mobile Device Forensics</a>
+        <a href="CF-11.html" class="list-group-item text-success">Challenges & Concerns in Digital Forensic</a>
+      <!-- active -->
+     
+    </div>
+  </div>
+  <!-- Content Column -->
+  <div class="col-lg-9 mb-4">
+   
+    <p>Berikut beberapa hal yang harus diperhatikan untuk membuat sebuah lab digital forensic :</p>
+    <!-- Post Content -->
+    <p class="lead text-success">Forensic Lab </p><hr>
+    <p>
+        Lab forensik sekarang sistemnya pake lab virtual, karena lebih efisien, hemat biaya,
+        dan bisa mendapat banyak akses ke resources kita. Untuk sistem aksesnya masih
+        memakai sistem RBAC. Lab Forensik dan storage evidence dioperasikan sesuai SOP yg berlaku. SOP itu
+        sama aja kek rules yg udh ditetapkan.
+        <br><br>
+        Nah untuk faktor-faktor penting yang harus diperhatikan dalam membuat sebuah lab forensik , ada 3 faktor utama, yaitu:
+
+        <li><b>Security</b> – sistem security lab kita harus tahan utk mempertahankan integritas evidence yg ada.</li>
+        <li><b>Performance</b> – koneksi internet hrs reliable dan cepat, serta kapasitas resource memadai utk operasi forensik</li>
+        <li><b>Cost</b> – biaya staff, maintenance PC, dan biaya lain-lainnya</li>
+    </p>
+    <br>
+    <p class="lead text-success">Quality Assurance</p><hr>
+    <p>
+        Gunanya utk menetapkan standar kualitas
+        utk menjamin akurasi dan reliability dari
+        hasil analisis yg sudah dilakukan
+        Ada 2 tipe :
+        <li><b>Technical Review</b>
+          <p> Berfokus pada hasil dan kesimpulan yg bisa
+        diambil. Intinya, apakah hasil2 analisa sesuai
+        dengan evidence yg ada d case?</p>
+        </li>
+       <li><b>Administrative Review</b>
+         <p>
+        Memastikan kalau semua point2 di
+        paperwork udh keisi semua dan komplit.
+         </p>
+       </li>
+        <br>
+      4 tipe proficiency test utk seorang examiner :<br>
+      <li><b>Open test</b> - Paham apa yg lagi mau d tes</li>
+      <li><b>Blind test</b> – ga aware apa yg mau d tes</li>
+      <li><b>Internal test</b> – dilakukan oleh agensinya sendiri</li>
+      <li><b>External test</b> – dilakukan oleh agensi yg ga bergantung ama agensi yg mau di tes</li>
+    </p>
+    <br>
+
+    <p class="lead text-success">Digital Forensic Practitioner Certification Requirements </p>
+    <hr>
+    <p>
+        <li>Prosedur sebelum pengecekan dan legal issues</li>
+        <li>Media Assesment & analysis</li>
+        <li>Data Recovery</li>
+        <li>Analisis scr spesifik abis recover data</li>
+        <li>Dokumentasi + reporting</li>
+        <li>Presentasi Finding</li>
+      
+    </p>
+    <br>
+    <p class="lead text-success">Digital Forensic Tools</p> <hr>
+    <p>
+        4 komponen dari AccessData FTK : <br>
+        <li>Oracle Database</li>
+        <li>FTK Client User Interface (UI)</li>
+        <li>Client-side Processing Engine</li>
+        <li>Distributed Processing Engine</li>
+    <br><br>
+    More Digital Forensic Tools : <br><br>
+   <center> <img class="img-fluid rounded" src="../../images/FTK.PNG"  alt=""></center>
+    <blockquote class="blockquote">
+      <br>
+        <p class="mb-0"><center>Digital Forensic Toolkit</center></p>
+        <center><footer class="blockquote-footer">Source :
+          <cite title="Source Title"><center>Parrot OS 4.4 </center></cite>
+        </footer></center>
+      </blockquote>
+    
+    </p>
+<br><br>
+<p class="lead text-success">Akreditasi VS Sertifikasi</p>
+<hr>
+<p>
+  Akreditasi lebih refer untuk ke Quality control Lab Forensiknya, sedangkan Certification lebih untuk ke 
+  individu staff forensic examiner-nya
+  <br><br>
+  The American Society of
+Crime Laboratory Directors/Laboratory Accreditation Board (ASCLD/LAB) Merupakan 'World Leader' dalam  akreditasi sebuah lab forensik
+</p>
+
+    </div>
+    </div>
+
+
+
+        <!-- END OF SECTION CONTENTS -->
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white"><div class="container my-auto"><div class="copyright text-center my-auto">
+            <span>Copyright &copy; Shinichi Nazakato 2019</span>
+          </div></div>
+      </footer>
+      <!-- End of Footer -->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+  <!-- End of Page Wrapper -->
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+ <!-- JS SCRIPTS -->
+  <script src="../../vendor/jquery/jquery.min.js"></script><script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script><script src="../../vendor/jquery-easing/jquery.easing.min.js"></script><script src="../../js/sb-admin-2.min.js"></script>
+</body></html>
+
+

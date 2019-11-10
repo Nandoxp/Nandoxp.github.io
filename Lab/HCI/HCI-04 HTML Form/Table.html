@@ -1,0 +1,156 @@
+<!-- 
+Creating HTML Tables
+ -->
+
+ <html>
+     <title>HTML Table</title>
+ <body>
+
+<!-- Catatan :
+Tag table juga mempunyai atribut untuk mengatur table tersebut. Beberapa atribut
+yang umum dipakai adalah:
+a) width: untuk mengatur lebar table dalam pixel ataupun persen penampung table.
+b) cellpadding: untuk mengatur jarak antara content dengan garis luar cell.
+c) cellspacing: untuk mengatur jarak antar cell.
+d) border: untuk mengatur tebal border dari table, jika bernilai 0, maka table tidak
+akan mempunyai border.
+e) bgcolor: untuk mengatur warna background dari table atau cell.
+f) bordercolor: untuk mengatur warna border.
+g) background: untuk mengatur gambar background dari table atau cell.
+
+ -->
+
+
+ <!-- Using Internal CSS to set a Border  -->
+ <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+</style>
+<!-- End of Internal CSS -->
+
+<!-- Simple Table  -->
+<h1>A Simple Table</h1>
+<table>
+   
+    <tr>
+        <td>Cell 1</td>
+        <td>Cell 2</td>
+        <td>Cell 3</td>
+    </tr>
+
+    <tr >
+        <td>Cell 2</td>
+    </tr>
+
+
+    <tr>
+        <td>Cell 3</td>
+    </tr>
+
+   
+
+</table>
+
+<br>
+Bisa dilihat, bahwa tag &lt;tr&gt; digunakan untuk menambah jumlah row pada tabel, sedangkan 
+tag &lt;td&gt; digunakan untuk menambahkan kolom baru
+
+<br><br>
+
+<!-- Merging via column with colspan -->
+<h1>Colspan Example</h1>
+<table>
+    <tr>
+        <td colspan="2">Cell 1</td>
+        
+    </tr>
+
+    <tr >
+        <td>Cell 2</td>
+        <td>Cell 3</td>
+    </tr>
+
+
+</table>
+
+<br><br>
+
+ <!-- Merging via row with rowspan -->
+<h1>Rowspan Example</h1>
+<table>
+    <tr>
+        <td rowspan="2">Cell 1</td>
+        <td>Cell 2</td>
+    </tr>
+
+    <tr >
+        <td>Cell 3</td>
+    </tr>
+
+
+</table>
+
+<br><br>
+
+<!-- Contoh Rancangan Tampilan Website Sederhana -->
+<h1>Contoh Rancangan  Tampilan Website Sederhana</h1>
+
+<table border="1" width="800">
+    <!-- Row for Header -->
+        <tr>
+         <td colspan="2">
+             <h1>Header Section
+                 <br>
+                 This is a Header for your Website
+             </h1>
+        </td>
+        </tr>
+
+        <!-- Row For Content -->
+         <tr>
+            <td width="200">
+                <strong>Menu</strong><br><br>
+                - Option 1 <br>
+                - Option 2 <br>
+                - Option 3 <br><br>
+            </td>
+            
+            <td><strong>Content</strong>
+               <br> Your Content Goes in Here . . .
+            </td>
+         </tr>
+
+         <!-- Row For Footer  -->
+         <tr>
+            <td colspan="2"><strong>Footer</strong></td>
+        </tr>
+        </table>
+
+
+        <hr>
+        <br>
+        <center>
+        <p class="lead">Want to see more better page view?</p> <br>
+        
+        <a href="Table - with CSS .html"><b>View Page</b></a>
+        <br><br>
+
+        <p class="lead">Done Viewing the Demo?</p> <br>
+        
+        <a href="../Menu-HCI.html"><b>Go Back to panel</b></a>
+        <br></center>
+
+        <br><br><br><br>
+
+
+
+
+
+
+
+
+
+ </body>
+ </html>

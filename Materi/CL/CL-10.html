@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>HackerJinja V.2.0</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="../../css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <style> *{ font-family: "Lexend Deca"; }  </style>
+    
+     
+</head>
+
+<!-- Brand Navbar -->
+<nav class="navbar bg-success ">
+<header>
+    <h1 class="h3  mb-2 text-white font-weight-bold text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HackerJinja</h1>
+</header>
+<a href="../../about.html" class="nav-item text-white"> About</a>
+</nav>
+
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar nav (EDIT THIS !) -->
+    <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
+        <!-- Sidebar - Brand -->
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#"><div class="sidebar-brand-text mx-3">Menu</div></a>
+        
+        <!-- Divider -->
+        <hr class="sidebar-divider my-0">
+
+        <!-- Nav Item - Dashboard -->
+        <li class="nav-item"><a class="nav-link" href="../../index.html"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+          
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading active text-white">Cyber Security</div>   
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item"> 
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages"><i class="fas fa-fw fa-folder"></i>
+          <span>Courses</span></a>
+          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Available Courses</h6>
+              <a class="collapse-item" href="../CF/Menu-CF.html">Cyber Forensic</a>
+              <a class="collapse-item" href="Menu-CL.html">Cyber Law</a>
+              <a class="collapse-item" href="../HCI/Menu-HCI.html">Human & Computer<br> Interaction</a>
+              <a class="collapse-item" href="../OS/Menu-OS.html">Operating System</a>
+              <a class="collapse-item" href="../AI/Menu-AI.html">Artificial Intelligence</a>
+              <a class="collapse-item" href="../E2/Menu-E2.html">Entrepreneurship 2</a>
+          </div></div></li>
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item"><a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities"><i class="fas fa-fw fa-folder"></i>
+        <span>Lab</span></a>
+        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">       
+            <a class="collapse-item" href="../../Lab/HCI/Menu-HCI.html">Human & Computer <br> Interaction</a>             
+            <a class="collapse-item" href="../../Lab/CF/Menu-CF.html">Cyber Forensic</a>
+            <a class="collapse-item" href="../../Lab/OS/Menu-OS.html">Operating System</a>
+          </div></div></li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider d-none d-md-block">
+
+        <!-- Sidebar Toggler (Sidebar) -->
+        <div class="text-center d-none d-md-inline"><button class="rounded-circle border-0" id="sidebarToggle"></button></div>
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <!-- Main Content -->
+      <div id="content">
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow ">
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3"><i class="fa fa-bars"></i> </button>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bell fa-fw"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">1</span> </a>
+              <!-- Dropdown - Alerts -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header bg-dark">Alerts Center </h6>
+                <!-- Alert Messages -->
+                <a class="dropdown-item d-flex align-items-center" href="#">   
+                  <div class="mr-3"><div class="icon-circle bg-success"><i class="fas fa-file-alt text-white"></i></div></div>
+                  <div><div class="small text-gray-500">August 17, 2019</div><span>New GUI for HackerJinja</span> </div>
+                </a>
+                <!-- Add new Alert in here -->
+              </div>
+            </li>
+
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-envelope fa-fw"></i>
+                <!-- Counter - Messages -->
+                <span class="badge badge-danger badge-counter">1</span>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown"><h6 class="dropdown-header bg-dark"> Message Center</h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <!-- New Message -->
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="../../images/marisa kecil.jpg" alt=""><div class="status-indicator bg-success"></div>
+                  </div>
+                  <div class="font-weight-bold">
+                    <div class="text-truncate">Welcome to HackerJinja</div><div class="small text-gray-500">Yonathan Wieliem</div>
+                  </div>
+                </a>
+                <!-- Add New Message in here -->
+              </div> </li><div class="topbar-divider d-none d-sm-block"></div>
+  
+          </ul>
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- SECTION CONTENT. FILL YOUR CONTENT IN HERE !!! -->
+            <!-- Page Heading/Breadcrumbs -->
+    <div class="jumbotron bg-success text-white">
+    <h1>Cyber Crime</h1>
+   </div>
+
+  <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+          <a class="text-success" href="../../index.html">Home</a>
+        </li>
+          <li class="breadcrumb-item"> Materi </li>
+        <li class="breadcrumb-item "> <a  class="text-success" href="Menu-CL.html">Cyber Law</a></li>
+        <li class="breadcrumb-item active">Chapter-10</li>
+  </ol>
+
+  <!-- Content Row -->
+  <div class="row">
+    <!-- Sidebar Column -->
+    <div class="col-lg-3 mb-4">
+      <div class="list-group">
+        <a href="CL-01.html" class="list-group-item text-success">The Fundamental Technology</a>
+        <a href="CL-02.html" class="list-group-item text-success">Internet Cyber Regulation</a>
+        <a href="CL-03.html" class="list-group-item  text-success">Broadcasting Regulation</a>
+        <a href="CL-04.html" class="list-group-item  text-success">Telecommunication Regulation</a>
+        <a href="CL-05.html" class="list-group-item  text-success">Indonesia Media Law</a>
+        <a href="CL-06.html" class="list-group-item text-success">Introduction to Information Privacy Law</a>
+        <a href="CL-07.html" class="list-group-item   text-success ">Privacy and Media</a>
+        <a href="CL-08.html" class="list-group-item text-success">IPR in Digital Era</a>
+        <a href="CL-09.html" class="list-group-item  text-success">Introduction to law and economic</a>
+        <a href="CL-10.html" class="list-group-item  active-success text-white bg-success">Cyber Crime</a>
+        <a href="CL-11.html" class="list-group-item  text-success">Freedom of Expression and Information</a>
+        <a href="CL-12.html" class="list-group-item  text-success">Defamation</a>
+        <!-- active -->
+       
+      </div>
+    </div>
+    <!-- Content Column -->
+    <div class="col-lg-9 mb-4">
+     <br>
+      <p class="lead text-success"> Pengertian</p><hr>
+      <p>
+            Hukum Real : Subjek dan Objek jelas, dan Negara aktif
+        <br>Hukum Cyber : Subjek dan Objek tidak jelas, dan Negara pasif
+      </p><br>
+
+      <p class="lead text-success">Peran, Asas, dan Tujuan</p><hr>
+      <p>
+          Dalam Undang-Undang ini yang dimaksud dengan:
+         <br><br> 1. Informasi Elektronik adalah satu atau sekumpulan data elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto, electronic data interchange (EDI), surat elektronik (electronic mail), telegram, teleks, telecopy atau sejenisnya, huruf, tanda, angka, Kode Akses, simbol, atau perforasi yang telah diolah yang memiliki arti atau dapat dipahami oleh orang yang mampu memahaminya.
+         <br><br> 2. Transaksi Elektronik adalah perbuatan hukum yang dilakukan dengan menggunakan Komputer, jaringan Komputer, dan/atau media elektronik lainnya.
+         <br><br> 3. Teknologi Informasi adalah suatu teknik untuk mengumpulkan, menyiapkan, menyimpan, memproses, mengumumkan, menganalisis, dan/atau menyebarkan informasi.
+         <br><br> 4. Dokumen Elektronik adalah setiap Informasi Elektronik yang dibuat, diteruskan, dikirimkan, diterima, atau disimpan dalam bentuk analog, digital, elektromagnetik, optikal, atau sejenisnya, yang dapat dilihat, ditampilkan, dan/atau didengar melalui Komputer atau Sistem Elektronik, termasuk tetapi tidak terbatas pada tulisan, suara, gambar, peta, rancangan, foto atau sejenisnya, huruf, tanda, angka, Kode Akses, simbol atau perforasi yang memiliki makna atau arti atau dapat dipahami oleh orang yang mampu memahaminya.
+         <br><br> 5. Sistem Elektronik adalah serangkaian perangkat dan prosedur elektronik yang berfungsi mempersiapkan, mengumpulkan, mengolah, menganalisis, menyimpan, menampilkan, mengumumkan, mengirimkan, dan/atau menyebarkan Informasi Elektronik
+         <br><br> 6. Penyelenggaraan Sistem Elektronik adalah pemanfaatan Sistem Elektronik oleh penyelenggara negara, Orang, Badan Usaha, dan/atau masyarakat.
+         <br><br> 7. Jaringan Sistem Elektronik adalah terhubungnya dua Sistem Elektronik atau lebih, yang bersifat tertutup ataupun terbuka.
+         <br><br> 8. Agen Elektronik adalah perangkat dari suatu Sistem Elektronik yang dibuat untuk melakukan suatu tindakan terhadap suatu Informasi Elektronik tertentu secara otomatis yang diselenggarakan oleh Orang.
+         <br><br> 9. Sertifikat Elektronik adalah sertifikat yang bersifat elektronik yang memuat Tanda Tangan Elektronik dan identitas yang menunjukkan status subjek hukum para pihak dalam Transaksi Elektronik yang dikeluarkan oleh Penyelenggara Sertifikasi Elektronik.
+         <br><br> 10. Penyelenggara Sertifikasi Elektronik adalah badan hukum yang berfungsi sebagai pihak yang layak dipercaya, yang memberikan dan mengaudit Sertifikat Elektronik.
+         <br><br> 11. Lembaga Sertifikasi Keandalan adalah lembaga independen yang dibentuk oleh profesional yang diakui, disahkan, dan diawasi oleh Pemerintah dengan kewenangan mengaudit dan mengeluarkan sertifikat keandalan dalam Transaksi Elektronik.
+         <br><br> 12. Tanda Tangan Elektronik adalah tanda tangan yang terdiri atas Informasi Elektronik yang dilekatkan, terasosiasi atau terkait dengan Informasi Elektronik lainnya yang digunakan sebagai alat verifikasi dan autentikasi.
+         <br><br> 13. Penanda Tangan adalah subjek hukum yang terasosiasikan atau terkait dengan Tanda Tangan Elektronik.
+         <br><br> 14. Komputer adalah alat untuk memproses data elektronik, magnetik, optik, atau sistem 
+          yang melaksanakan fungsi logika, aritmatika, dan penyimpanan.
+         <br><br> 15. Akses adalah kegiatan melakukan interaksi dengan Sistem Elektronik 
+          yang berdiri sendiri atau dalam jaringan.
+         <br><br> 16. Kode Akses adalah angka, huruf, simbol, karakter lainnya atau 
+          kombinasi di antaranya, yang merupakan kunci untuk dapat mengakses Komputer 
+          dan/atau Sistem Elektronik lainnya.
+         <br><br> 17. Kontrak Elektronik adalah perjanjian para pihak yang dibuat melalui Sistem Elektronik.
+         <br><br> 18. Pengirim adalah subjek hukum yang mengirimkan Informasi Elektronik dan/atau Dokumen Elektronik.
+         <br><br> 19. Penerima adalah subjek hukum yang menerima Informasi Elektronik 
+          dan/atau Dokumen Elektronik dari Pengirim.
+         <br><br> 20. Nama Domain adalah alamat internet penyelenggara negara, 
+          Orang, Badan Usaha, dan/atau masyarakat, yang dapat digunakan dalam berkomunikasi 
+          melalui internet, yang berupa kode atau susunan karakter yang bersifat unik untuk 
+          menunjukkan lokasi tertentu dalam internet.
+         <br><br> 21. Orang adalah orang perseorangan, baik warga negara Indonesia, warga negara asing, 
+          maupun badan hukum.
+         <br><br> 22. Badan Usaha adalah perusahaan perseorangan atau perusahaan persekutuan, 
+          baik yang berbadan hukum maupun yang tidak berbadan hukum.
+         <br><br> 23. Pemerintah adalah Menteri atau pejabat lainnya yang ditunjuk oleh Presiden.
+
+      </p><br>
+
+      <p class="lead text-success">Pasal-pasal yang mengatur Transaksi Elektronik dalam UU ITE</p><hr>
+      <p>
+
+          <b>Pasal 2</b><br>
+          Undang-Undang ini berlaku untuk setiap Orang 
+          yang melakukan perbuatan hukum 
+          sebagaimana diatur dalam Undang-Undang ini, 
+          baik yang berada di wilayah hukum Indonesia 
+          maupun di luar wilayah hukum Indonesia, 
+          yang memiliki akibat hukum di wilayah hukum Indonesia 
+          dan/atau di luar wilayah hukum Indonesia 
+          dan merugikan kepentingan Indonesia.
+          <br><br>
+          <b>Pasal 18</b><br>
+                  (1) Transaksi Elektronik yang dituangkan ke dalam Kontrak Elektronik mengikat para pihak.
+          <br><br>(2) Para pihak memiliki kewenangan untuk memilih hukum yang berlaku bagi Transaksi Elektronik
+                  internasional yangdibuatnya.
+          <br><br>(3) Jika para pihak tidak melakukan pilihan hukum dalam Transaksi Elektronik internasional, 
+                  hukum yang berlakudidasarkan pada asas Hukum Perdata Internasional.
+          <br><br>(4) Para pihak memiliki kewenangan untuk menetapkan forum pengadilan, arbitrase, 
+          atau lembaga penyelesaian sengketa 
+          alternatif lainnya yang berwenang menangani sengketa yang mungkin timbul dari Transaksi Elektronik 
+          internasional yang dibuatnya.
+          <br><br>(5) Jika para pihak tidak melakukan pilihan forum sebagaimana dimaksud pada ayat (4), 
+          penetapan kewenangan pengadilan, arbitrase, atau lembaga penyelesaian sengketa alternatif lainnya 
+          yang berwenang menangani sengketa yang mungkin timbul dari transaksi tersebut, 
+          didasarkan pada asas Hukum Perdata Internasional.
+          <br><br>
+          <b>Pasal 19</b>
+          <br>Para pihak yang melakukan Transaksi Elektronik harus menggunakan Sistem Elektronik yang disepakati.
+          
+          <br><br>
+          <b>Pasal 20</b>
+          <br>(1) Kecuali ditentukan lain oleh para pihak, Transaksi Elektronik terjadi pada saat penawaran transaksi yang 
+          dikirim Pengirim telah diterima dan disetujui Penerima.
+          <br><br>(2) Persetujuan atas penawaran Transaksi Elektronik sebagaimana dimaksud pada ayat (1) harus dilakukan
+          dengan pernyataan penerimaan secara elektronik.
+    
+      </p><br>
+
+      <p class="lead text-success">Perbuatan yang dilarang oleh UU ITE diatur dalam beberapa pasal ini</p><hr>
+      <p>
+          <b>Pasal 27</b><br>
+          (1) Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau
+          membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan yang melanggar kesusilaan.
+          <br><br>(2) Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau
+          membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan perjudian.
+          <br><br>(3) Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau
+          membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan penghinaan dan/atau pencemaran nama baik.
+          <br><br>(4) Setiap Orang dengan sengaja dan tanpa hak mendistribusikan dan/atau mentransmisikan dan/atau
+          membuat dapat diaksesnya Informasi Elektronik dan/atau Dokumen Elektronik yang memiliki muatan pemerasan dan/atau pengancaman.
+          <br><br>
+          <b>Pasal 28</b>
+          <br>(1) Setiap Orang dengan sengaja dan tanpa hak menyebarkan berita bohong dan menyesatkan yang mengakibatkan kerugian konsumen dalam Transaksi Elektronik.
+          <br><br>(2) Setiap Orang dengan sengaja dan tanpa hak menyebarkan informasi yang ditujukan untuk menimbulkan rasa kebencian atau permusuhan individu dan/atau kelompok masyarakat tertentu berdasarkan atas suku, agama, ras, dan antargolongan (SARA).
+          <br><br>
+          <b>Pasal 29</b><br>
+          Setiap Orang dengan sengaja dan tanpa hak mengirimkan Informasi Elektronik dan/atau Dokumen Elektronik yang berisi ancaman kekerasan atau menakut-nakuti yang ditujukan secara pribadi.
+          <br><br>
+          <b>Pasal 30</b><br>
+          (1) Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum mengakses Komputer dan/atau Sistem Elektronik milik Orang lain dengan cara apa pun.
+          <br><br>(2) Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum mengakses Komputer dan/atau Sistem Elektronik dengan cara apa pun dengan tujuan untuk memperoleh Informasi Elektronik dan/atau Dokumen Elektronik.
+          <br><br>(3) Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum mengakses Komputer dan/atau Sistem Elektronik dengan cara apa pun dengan melanggar, menerobos, melampaui, atau menjebol sistem pengamanan.
+          
+          <br><br>
+          <b>Pasal 31</b><br>
+          (1) Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum melakukan intersepsi atau penyadapan atas Informasi Elektronik dan/atau Dokumen Elektronik dalam suatu Komputer dan/atau Sistem Elektronik tertentu milik Orang lain.
+          <br><br>(2) Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum melakukan intersepsi atas transmisi Informasi Elektronik dan/atau Dokumen Elektronik yang tidak bersifat publik dari, ke, dan di dalam suatu Komputer dan/atau Sistem Elektronik tertentu milik Orang lain, baik yang tidak menyebabkan perubahan apa pun maupun yang menyebabkan adanya perubahan, penghilangan, dan/atau penghentian Informasi Elektronik dan/atau Dokumen Elektronik yang sedang ditransmisikan.
+          <br><br>(3) Kecuali intersepsi sebagaimana dimaksud pada ayat (1) dan ayat (2), intersepsi yang dilakukan dalam rangka penegakan hukum atas permintaan kepolisian, kejaksaan, dan/atau institusi penegak hukum lainnya yang ditetapkan berdasarkan undang-undang.
+
+          <br><br>
+          <b>Pasal 32</b><br>
+          (1) Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum dengan cara apa pun mengubah, menambah, mengurangi, melakukan transmisi, merusak, menghilangkan, memindahkan, menyembunyikan suatu Informasi Elektronik dan/atau Dokumen Elektronik milik Orang lain atau milik publik.
+          <br><br>(2) Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum dengan cara apa pun memindahkan atau mentransfer Informasi Elektronik dan/atau Dokumen Elektronik kepada Sistem Elektronik Orang lain yang tidak berhak.
+          <br><br>(3) Terhadap perbuatan sebagaimana dimaksud pada ayat (1) yang mengakibatkan terbukanya suatu Informasi Elektronik dan/atau Dokumen Elektronik yang bersifat rahasia menjadi dapat diakses oleh publik dengan keutuhan data yang tidak sebagaimana mestinya.
+          <br><br>
+        
+          <b>Pasal 33</b><br>
+          Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum melakukan tindakan apa pun yang berakibat terganggunya Sistem Elektronik dan/atau mengakibatkan Sistem Elektronik menjadi tidak bekerja sebagaimana mestinya.
+          <br><br>
+          <b>Pasal 34</b><br>
+          (1) Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum memproduksi, menjual, mengadakan untuk digunakan, mengimpor, mendistribusikan, menyediakan, atau memiliki:
+          <br>a. perangkat keras atau perangkat lunak Komputer yang dirancang atau secara khusus dikembangkan untuk
+          memfasilitasi perbuatan sebagaimana dimaksud dalam Pasal 27 sampai dengan Pasal 33;
+          <br>b. sandi lewat Komputer, Kode Akses, atau hal yang sejenis dengan itu yang ditujukan agar Sistem Elektronik menjadi dapat diakses dengan tujuan memfasilitasi perbuatan sebagaimana dimaksud dalam Pasal 27 sampai dengan Pasal 33.
+          <br><br>(2) Tindakan sebagaimana dimaksud pada ayat (1) bukan tindak pidana jika ditujukan untuk melakukan kegiatan penelitian, pengujian Sistem Elektronik, untuk perlindungan Sistem Elektronik itu sendiri secara sah dan tidak melawan hukum.
+          <br><br>
+          <b>Pasal 35</b><br>
+          Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum melakukan manipulasi, penciptaan, perubahan, penghilangan, pengrusakan Informasi Elektronik dan/atau Dokumen Elektronik dengan tujuan agar Informasi Elektronik dan/atau Dokumen Elektronik tersebut dianggap seolah-olah data yang otentik.
+          <br><br>
+          <b> Pasal 36</b><br>
+          Setiap Orang dengan sengaja dan tanpa hak atau melawan hukum melakukan perbuatan sebagaimana dimaksud dalam Pasal 27 sampai dengan Pasal 34 yang mengakibatkan kerugian bagi Orang lain.
+          <br><br>
+          <b>Pasal 37</b> <br>
+          Setiap Orang dengan sengaja melakukan perbuatan yang dilarang sebagaimana dimaksud dalam Pasal 27 sampai dengan Pasal 36 di luar wilayah Indonesia terhadap Sistem Elektronik yang berada di wilayah yurisdiksi Indonesia.
+      </p><br>
+
+      <p class="lead text-success">Ketentuan Pidana terhadap pelanggaran UU ITE</p><hr>
+      <p>
+          <b>Pasal 45</b><br>
+          (1) Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 27 ayat (1), ayat (2), ayat (3), atau ayat (4) dipidana dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).
+          <br><br>(2) Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 28 ayat (1) atau ayat (2) dipidana
+          dengan pidana penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp1.000.000.000,00 (satu miliar rupiah).
+          <br><br>(3) Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 29 dipidana dengan pidana penjara
+          paling lama 12 (dua belas) tahun dan/atau denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).
+          <br><br>
+          <b>Pasal 46</b><br>
+          (1) Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 30 ayat (1) dipidana dengan pidana
+          penjara paling lama 6 (enam) tahun dan/atau denda paling banyak Rp600.000.000,00 (enam ratus juta rupiah).
+          <br><br>(2) Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 30 ayat (2) dipidana dengan pidana
+          penjara paling lama 7 (tujuh) tahun dan/atau denda paling banyak Rp700.000.000,00 (tujuh ratus juta rupiah).
+          <br><br>(3) Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 30 ayat (3) dipidana dengan pidana
+          penjara paling lama 8 (delapan) tahun dan/atau denda paling banyak Rp800.000.000,00 (delapan ratus juta rupiah).
+          
+          <br><br>
+          <b>Pasal 47</b><br>
+          Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 31 ayat (1) atau ayat (2) dipidana dengan pidana
+          penjara paling lama 10 (sepuluh) tahun dan/atau denda paling banyak Rp800.000.000,00 (delapan ratus juta rupiah).
+          
+          <br><br>
+
+          <b>Pasal 48</b><br>
+          (1) Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 32 ayat (1) dipidana dengan pidana penjara paling lama 8 (delapan) tahun dan/atau denda paling banyak Rp2.000.000.000,00 (dua miliar rupiah).
+          <br>(2) Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 32 ayat (2) dipidana dengan pidana penjara paling lama 9 (sembilan) tahun dan/atau denda paling banyak Rp3.000.000.000,00 (tiga miliar rupiah).
+          <br>(3) Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 32 ayat (3) dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun dan/atau denda paling banyak Rp5.000.000.000,00 (lima miliar rupiah).
+          
+          <br><br>
+          <b>Pasal 49</b><br>
+          Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 33, dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun dan/atau denda paling banyak Rp10.000.000.000,00 (sepuluh miliar rupiah).
+          
+          <br><br>
+          <b>Pasal 50</b><br> 
+          Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 34 ayat (1) dipidana dengan pidana penjara paling lama 10 (sepuluh) tahun dan/atau denda paling banyak Rp10.000.000.000,00 (sepuluh miliar rupiah).
+          
+          <br><br>
+          <b>Pasal 51</b><br>
+          (1) Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 35 dipidana dengan pidana penjara paling lama 12 (dua belas) tahun dan/atau denda paling banyak Rp12.000.000.000,00 (dua belas miliar rupiah).
+          <br><br>(2) Setiap Orang yang memenuhi unsur sebagaimana dimaksud dalam Pasal 36 dipidana dengan pidana penjara paling lama 12 (dua belas) tahun dan/atau denda paling banyak Rp12.000.000.000,00 (dua belas miliar rupiah).
+          <br><br>
+          <b>Pasal 52</b><br>
+          (1) Dalam hal tindak pidana sebagaimana dimaksud dalam Pasal 27 ayat (1) menyangkut kesusilaan atau eksploitasi seksual terhadap anak dikenakan pemberatan sepertiga dari pidana pokok.
+          <br><br>(2) Dalam hal perbuatan sebagaimana dimaksud dalam Pasal 30 sampai dengan Pasal 37 ditujukan terhadap Komputer dan/atau Sistem Elektronik serta Informasi Elektronik dan/atau Dokumen Elektronik milik Pemerintah dan/atau yang digunakan untuk layanan publik dipidana dengan pidana pokok ditambah sepertiga.
+          <br><br>(3) Dalam hal perbuatan sebagaimana dimaksud dalam Pasal 30 sampai dengan Pasal 37 ditujukan terhadap Komputer dan/atau Sistem Elektronik serta Informasi Elektronik dan/atau Dokumen Elektronik milik Pemerintah dan/atau badan strategis termasuk dan tidak terbatas pada lembaga pertahanan, bank sentral, perbankan, keuangan, lembaga internasional, otoritas penerbangan diancam dengan pidana maksimal ancaman pidana pokok masing-masing Pasal ditambah dua pertiga.
+          <br><br>(4) Dalam hal tindak pidana sebagaimana dimaksud dalam Pasal 27 sampai dengan Pasal 37 dilakukan oleh korporasi dipidana dengan pidana pokok ditambah dua pertiga.
+      </p><br>
+
+     
+        
+
+      </div>
+      </div>
+
+        <!-- END OF SECTION CONTENTS -->
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white"><div class="container my-auto"><div class="copyright text-center my-auto">
+            <span>Copyright &copy; Shinichi Nazakato 2019</span>
+          </div></div>
+      </footer>
+      <!-- End of Footer -->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+  <!-- End of Page Wrapper -->
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+ <!-- JS SCRIPTS -->
+  <script src="../../vendor/jquery/jquery.min.js"></script><script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script><script src="../../vendor/jquery-easing/jquery.easing.min.js"></script><script src="../../js/sb-admin-2.min.js"></script>
+</body></html>
+
+

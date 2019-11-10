@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>HackerJinja V.2.0</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="../../css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <style> *{ font-family: "Lexend Deca"; }  </style>
+    
+     
+</head>
+
+<!-- Brand Navbar -->
+<nav class="navbar bg-success ">
+<header>
+    <h1 class="h3  mb-2 text-white font-weight-bold text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HackerJinja</h1>
+</header>
+<a href="../../about.html" class="nav-item text-white"> About</a>
+</nav>
+
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar nav (EDIT THIS !) -->
+    <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
+        <!-- Sidebar - Brand -->
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#"><div class="sidebar-brand-text mx-3">Menu</div></a>
+        
+        <!-- Divider -->
+        <hr class="sidebar-divider my-0">
+
+        <!-- Nav Item - Dashboard -->
+        <li class="nav-item"><a class="nav-link" href="../../index.html"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+          
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading active text-white">Cyber Security</div>   
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item"> 
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages"><i class="fas fa-fw fa-folder"></i>
+          <span>Courses</span></a>
+          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Available Courses</h6>
+              <a class="collapse-item" href="../CF/Menu-CF.html">Cyber Forensic</a>
+              <a class="collapse-item" href="../CL/Menu-CL.html">Cyber Law</a>
+              <a class="collapse-item" href="Menu-HCI.html">Human & Computer<br> Interaction</a>
+              <a class="collapse-item" href="../OS/Menu-OS.html">Operating System</a>
+              <a class="collapse-item" href="../AI/Menu-AI.html">Artificial Intelligence</a>
+              <a class="collapse-item" href="../E2/Menu-E2.html">Entrepreneurship 2</a>
+          </div></div></li>
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item"><a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities"><i class="fas fa-fw fa-folder"></i>
+        <span>Lab</span></a>
+        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">       
+            <a class="collapse-item" href="../../Lab/HCI/Menu-HCI.html">Human & Computer <br> Interaction</a>             
+            <a class="collapse-item" href="../../Lab/CF/Menu-CF.html">Cyber Forensic</a>
+            <a class="collapse-item" href="../../Lab/OS/Menu-OS.html">Operating System</a>
+          </div></div></li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider d-none d-md-block">
+
+        <!-- Sidebar Toggler (Sidebar) -->
+        <div class="text-center d-none d-md-inline"><button class="rounded-circle border-0" id="sidebarToggle"></button></div>
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <!-- Main Content -->
+      <div id="content">
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow ">
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3"><i class="fa fa-bars"></i> </button>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bell fa-fw"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">1</span> </a>
+              <!-- Dropdown - Alerts -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header bg-dark">Alerts Center </h6>
+                <!-- Alert Messages -->
+                <a class="dropdown-item d-flex align-items-center" href="#">   
+                  <div class="mr-3"><div class="icon-circle bg-success"><i class="fas fa-file-alt text-white"></i></div></div>
+                  <div><div class="small text-gray-500">August 17, 2019</div><span>New GUI for HackerJinja</span> </div>
+                </a>
+                <!-- Add new Alert in here -->
+              </div>
+            </li>
+
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-envelope fa-fw"></i>
+                <!-- Counter - Messages -->
+                <span class="badge badge-danger badge-counter">1</span>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown"><h6 class="dropdown-header bg-dark"> Message Center</h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <!-- New Message -->
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="../../images/marisa kecil.jpg" alt=""><div class="status-indicator bg-success"></div>
+                  </div>
+                  <div class="font-weight-bold">
+                    <div class="text-truncate">Welcome to HackerJinja</div><div class="small text-gray-500">Yonathan Wieliem</div>
+                  </div>
+                </a>
+                <!-- Add New Message in here -->
+              </div> </li><div class="topbar-divider d-none d-sm-block"></div>
+  
+          </ul>
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- SECTION CONTENT. FILL YOUR CONTENT IN HERE !!! -->
+          <div class="jumbotron bg-success text-white">
+            <!-- Page Heading/Breadcrumbs -->
+            <h1>Advanced Evaluation</h1>
+        </div>
+        
+        
+        <ol class="breadcrumb ">
+          <li class="breadcrumb-item text-success">
+              <a class="text-success" href="../../index.html">Home</a>
+            </li>
+              <li class="breadcrumb-item "> Materi </li>
+            <li class="breadcrumb-item  "> <a class="text-success" href="menu-HCI.html">Human & Computer Interaction</a></li>
+            <li class="breadcrumb-item active ">Chapter-12 </li>
+        </ol>
+
+
+      <!-- Content Row -->
+      <div class="row ">
+                  <!-- Sidebar Column -->
+                  <div class="col-lg-3 mb-4 ">
+                    <div class="list-group">
+                      <a href="HCI-01.html" class="list-group-item text-success">Interaction Design</a>
+                      <a href="HCI-02.html" class="list-group-item text-success">Understanding & Conceptualizing Interaction</a>
+                      <a href="HCI-03.html" class="list-group-item text-success">Cognitive Aspects</a>
+                      <a href="HCI-04.html" class="list-group-item text-success">Social Interaction</a>
+                      <a href="HCI-05.html" class="list-group-item text-success">Emotional Interaction</a>
+                      <a href="HCI-06.html" class="list-group-item text-success">Interfaces</a>
+                      <a href="HCI-07.html" class="list-group-item text-success">Review Mid Term</a>
+                      <a href="HCI-08.html" class="list-group-item text-success">Establishing Requirements</a>
+                      <a href="HCI-09.html" class="list-group-item text-success">Data Analysis, Interpretation, Presentation</a>
+                      <a href="HCI-10.html" class="list-group-item text-success">Design, Prototyping, Construction</a>
+                      <a href="HCI-11.html" class="list-group-item text-success">Basic Evaluation</a>
+                      <a href="HCI-12.html" class="list-group-item active-success text-white bg-success">Advanced Evaluation</a>
+                      <a href="HCI-13.html" class="list-group-item text-success">Review Final Term</a>
+                      <!-- active -->
+                           
+                          </div>
+                        </div>
+                        <!-- Content Column -->
+                        <div class="col-lg-9 mb-4">
+                          
+                          <!-- Isi materi disini ya -->
+                          <p class="lead text-success">Usability testing</p><hr>    
+                          <p>
+                              
+                              •	Kegunaan produk secara tradisional telah diuji dalam pengaturan laboratorium yang terkontrol.
+                          <br><br>    •	Metode ini telah umum digunakan untuk mengevaluasi aplikasi desktop, seperti situs web, pengolah kata, dan alat pencarian.
+                          <br><br>    •	Seperti disebutkan dalam Sesi 11, kombinasi metode sering digunakan untuk mengumpulkan data. Data termasuk rekaman video dari pengguna termasuk ekspresi wajah dan penekanan tombol dan gerakan mouse yang dicatat. Selain itu, kuesioner kepuasan pengguna digunakan untuk mencari tahu bagaimana perasaan pengguna sebenarnya tentang menggunakan produk. Wawancara terstruktur atau semi terstruktur juga dapat dilakukan dengan pengguna untuk mengumpulkan informasi tambahan.
+                          <br><br>    •	Contoh tugas yang diberikan kepada pengguna termasuk mencari informasi, membaca tipografi berbeda dan menavigasi melalui berbagai menu.
+                          <br><br>    •	Ada dua ukuran kinerja utama yang digunakan: waktu yang dibutuhkan pengguna biasa untuk menyelesaikan tugas dan jumlah kesalahan yang dilakukan partisipan.
+                              
+                          </p><br><br>
+
+                          <p class="lead text-success">Experimental Design</p><hr>
+                          <p>
+                              •	Untuk menguji hipotesis, perlu desain eksperimental.<br>
+                              •	Yang jadi perhatian dalam Desain Eksperimental adalah untuk menentukan peserta yang akan digunakan untuk kondisi apa dalam percobaan.
+                              <br><br>	Ada tiga jenis desain berdasarkan peserta:<br><br>
+                              <b>o	Different Participant Design </b>: satu kelompok peserta dialokasikan secara acak untuk masing-masing kondisi eksperimental.
+                              <br><br>
+                              <b>o	Same Participant Design </b>: semua peserta tampil dalam semua kondisi sehingga hanya setengah jumlah peserta yang dibutuhkan.
+                              <br><br>
+                              <b>o	Matched Participant Design </b>: peserta dicocokkan berpasangan berdasarkan karakteristik pengguna tertentu seperti keahlian dan jenis kelamin.
+                
+                          </p><br><br>
+
+                          <p class="lead text-success">Studi lapangan</p><hr>
+                          <p>
+                          •	Studi lapangan adalah studi evaluasi yang dilakukan di lingkungan alami
+                          <br><br>•	Tujuannya untuk menemukan bagaimana orang berinteraksi dengan teknologi di dunia nyata.
+                          <br><br>•	Studi lapangan yang melibatkan penyebaran prototipe atau teknologi dalam pengaturan alam juga disebut sebagai 'di alam liar'.
+                          <br><br>•	Studi lapangan dapat berkisar dalam waktu dari hanya beberapa menit hingga periode beberapa bulan atau bahkan bertahun-tahun.
+                          <br><br>•	Data dikumpulkan terutama dengan mengamati dan mewawancarai orang-orang dan mengumpulkan video, audio, dan catatan lapangan untuk merekam apa yang terjadi dalam pengaturan yang dipilih.
+                          
+                          </p><br><br>
+
+                          <p class="lead text-success">Heuristic Evaluation Stages</p><hr>
+                          <p>
+                          •	Sesi Briefing, di mana para ahli diberitahu apa yang harus dilakukan.
+                          <br>•	Sesi Evaluasi, di mana setiap ahli biasanya menghabiskan 1-2 jam untuk memeriksa produk secara independen, menggunakan heuristik untuk panduan.
+                          <br>•	Sesi Tanya Jawab, di mana para evaluator berkumpul untuk membahas temuan mereka dan memprioritaskan masalah yang mereka temukan dan menyarankan solusi
+                          </p><br><br>
+                          
+                          <p class="lead text-success">Cognitive Walkthroughs</p><hr>
+                          <p>
+                          •	Cognitive Walkthroughs sangat terfokus dan sangat cocok untuk mengevaluasi bagian kecil dari suatu produk.
+                          <br><br>• <b>Langkah-langkah yang terlibat dalam walkthrough kognitif adalah:</b>	<br><br>
+                          o	Karakteristik pengguna biasa akan diidentifikasi dan didokumentasikan dan sampel task yang dikembangkan berfokus pada aspek desain yang akan dievaluasi.
+                          <br><br>o	Seorang desainer dan satu atau lebih ahli evaluator berkumpul untuk melakukan analisis.
+                          <br><br>o	Evaluator berjalan melalui urutan tindakan untuk setiap tugas, menempatkannya dalam konteks skenario tipikal.
+                          <br><br>o	Saat langkah-langkah sedang dilakukan, catatan informasi penting dikompilasi.
+                          <br><br>o	Desain kemudian direvisi untuk memperbaiki masalah yang disajikan.
+                          </p><br><br>
+
+
+                          <p class="lead text-success">Pluralistic Walkthroughs</p><hr>
+                          <p>
+                          Adalah jenis walkthrough lain di mana user, Developer, dan usability experts bekerja bersama untuk menyusun skenario tugas, membahas masalah usability yang terkait dengan elemen dialog yang terlibat dalam langkah-langkah di skenario.
+                          <br><br>Benefitnya dari memakai pluralistic walkthroughs sudah  termasuk fokus yang kuat pada tugas-tugas user pada tingkat yang terperinci, yaitu melihat langkah-langkah yang diambil.
+
+                          </p><br><br>
+                          
+                          <p class="lead text-success"> Analytics</p><hr>
+                         <p>
+                          Analytics adalah metode untuk mengevaluasi lalu lintas pengguna melalui suatu sistem. Ketika digunakan untuk memeriksa lalu lintas di situs web atau bagian dari situs web, maka metode ini dikenal sebagai web analytics.
+                          </p><br><br>
+                            
+                          <p class="lead text-success">Predictive Modelling</p>
+                          <p>
+                              •	Model prediksi mengevaluasi sistem tanpa adanya kehadiran user.
+                              <br>•	Model prediktif menggunakan rumus untuk menurunkan berbagai ukuran kinerja pengguna.
+                              <br>•	Pemodelan prediktif memberikan perkiraan efisiensi sistem yang berbeda untuk berbagai jenis tugas.
+                             <br><br> Ada 3 model;<b> GOMS Model, KLM Model, dan Fitts’ Law</b>
+                          <br><br>
+                          <p class="lead">•	GOMS Model </p>
+                          o	<b>Goals</b> merujuk pada keadaan tertentu yang ingin dicapai pengguna (mis. Utk menemukan situs web tentang desain interaksi).
+                          <br><br>
+                          o	<b>Operator </b>merujuk pada proses kognitif dan tindakan fisik yang perlu dilakukan untuk mencapai tujuan tersebut (mis. memutuskan mesin pencari mana yang akan digunakan)
+                          <br><br>
+                          Perbedaan antara Goals dan operator adalah bahwa Goals itu diperoleh dan operator dieksekusi
+                          <br><br>
+                          o	<b>Metode</b> adalah prosedur yang dipelajari untuk mencapai tujuan. (mis. ketik kata kunci di kotak pencarian Google dan tekan tombol pencarian)
+                          <br><br>
+                          o	<b>Selection Rules</b> digunakan untuk menentukan metode mana yang harus dipilih ketika ada lebih dari satu opsi yang tersedia untuk tahap tugas tertentu. (mis. begitu kata kunci telah dimasukkan ke dalam bidang entri mesin pencari, banyak mesin pencari memungkinkan pengguna untuk menekan tombol kembali pada keyboard atau mengklik tombol go menggunakan mouse untuk melanjutkan pencarian.)
+
+                                                    
+                          <br><br>
+                      
+                          <p class="lead">•	KLM Model</p>
+                          o	KLM memberikan prediksi numerik dari kinerja pengguna.
+                         <br> o	Tasks dapat dibandingkan dalam hal waktu yang diperlukan untuk melaksanakannya ketika menggunakan strategi yang berbeda.
+                         <br> o	Manfaat utama: bahwa berbagai fitur sistem dan aplikasi dapat dengan mudah dibandingkan untuk melihat mana yang mungkin paling efektif untuk melakukan jenis task tertentu.
+                         <br> o	Dalam KLM ada core time standard yang telah ditetapkan.
+                        <br><br>
+
+                        <center><img class="img-fluid rounded" src="../../images/KLM.PNG"  alt=""></center> 
+                          <blockquote class="blockquote">
+                              <br>
+                                <p class="mb-0"><center>KLM Core Standards </center></p>
+                                <center><footer class="blockquote-footer">Source :
+                                  <cite title="Source Title"><center>ppt HCI</center></cite>
+                                </footer></center>
+                              </blockquote>
+
+                        <br><br>
+
+                       <b>Contoh soal KLM:</b><br>
+                        Berapa lama waktu yang dibutuhkan untuk memasukkan kata ‘not’ dalam kalimat berikut? 
+                        <br><br>
+                        Kalimat awal: “ Running after eating is normal.” 
+                        <br>Kalimat yang seharusnya: “ Running after eating is <b>not</b> normal.” 
+                        <br><br>Jawaban : <br><br>
+                        <center><img class="img-fluid rounded" src="../../images/KLM2.PNG"  alt=""></center> 
+                          <blockquote class="blockquote">
+                              <br>
+                                <p class="mb-0"><center>Jawaban soal KLM </center></p>
+                                <center><footer class="blockquote-footer">Source :
+                                  <cite title="Source Title"><center>ppt HCI</center></cite>
+                                </footer></center>
+                              </blockquote>
+
+                        <br><br>
+                       <i> *perhatikan si operatornya dulu ya hehe :D</i>
+                              <br><br>
+                        Kesimpulan:<br>
+                        Itu berarti durasi lebih dari 5 detik sepertinya waktu yang lama untuk memasukkan kata ke dalam kalimat, terutama untuk pengetik yang baik.
+
+                        <br><br><br>
+                        <p class="lead">•	Fitts’ Law</p>
+                        memprediksi waktu yang diperlukan untuk mencapai target menggunakan pointing device. 
+                        <br><br>
+                        <center><img class="img-fluid rounded" src="../../images/Fits.PNG"  alt=""></center> 
+                        <blockquote class="blockquote">
+                            <br>
+                              <p class="mb-0"><center>Rumus Fitts' Law </center></p>
+                              <center><footer class="blockquote-footer">Source :
+                                <cite title="Source Title"><center>ppt HCI</center></cite>
+                              </footer></center>
+                            </blockquote>
+
+                          <br><br>
+                          Keterangan:<br>
+                          T = Waktu utk gerakin pointer ke target<br>
+                          D = Jarak antara pointer dan target<br>
+                          S = Size dari si target<br>
+                          K = bilangan konstanta dgn standarisasi 200 ms/bit
+                          
+
+
+
+
+
+                          </p><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                          <!-- End of Column Content -->
+      </div>
+
+        <!-- END OF SECTION CONTENTS -->
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white"><div class="container my-auto"><div class="copyright text-center my-auto">
+            <span>Copyright &copy; Shinichi Nazakato 2019</span>
+          </div></div>
+      </footer>
+      <!-- End of Footer -->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+  <!-- End of Page Wrapper -->
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+ <!-- JS SCRIPTS -->
+  <script src="../../vendor/jquery/jquery.min.js"></script><script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script><script src="../../vendor/jquery-easing/jquery.easing.min.js"></script><script src="../../js/sb-admin-2.min.js"></script>
+</body></html>
+
+

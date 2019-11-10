@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>HackerJinja V.2.0</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="../../css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <style> *{ font-family: "Lexend Deca"; }  </style>
+    
+     
+</head>
+
+<!-- Brand Navbar -->
+<nav class="navbar bg-success ">
+<header>
+    <h1 class="h3  mb-2 text-white font-weight-bold text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HackerJinja</h1>
+</header>
+<a href="../../about.html" class="nav-item text-white"> About</a>
+</nav>
+
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar nav (EDIT THIS !) -->
+    <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
+        <!-- Sidebar - Brand -->
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#"><div class="sidebar-brand-text mx-3">Menu</div></a>
+        
+        <!-- Divider -->
+        <hr class="sidebar-divider my-0">
+
+        <!-- Nav Item - Dashboard -->
+        <li class="nav-item"><a class="nav-link" href="../../index.html"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+          
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading active text-white">Cyber Security</div>   
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item"> 
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages"><i class="fas fa-fw fa-folder"></i>
+          <span>Courses</span></a>
+          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Available Courses</h6>
+              <a class="collapse-item" href="../CF/Menu-CF.html">Cyber Forensic</a>
+              <a class="collapse-item" href="../CL/Menu-CL.html">Cyber Law</a>
+              <a class="collapse-item" href="../HCI/Menu-HCI.html">Human & Computer<br> Interaction</a>
+              <a class="collapse-item" href="../OS/Menu-OS.html">Operating System</a>
+              <a class="collapse-item" href="../OS/Menu-OS.html">Artificial Intelligence</a>
+              <a class="collapse-item" href="Menu-E2.html">Entrepreneurship 2</a>
+          </div></div></li>
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item"><a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities"><i class="fas fa-fw fa-folder"></i>
+        <span>Lab</span></a>
+        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">       
+            <a class="collapse-item" href="../../Lab/HCI/Menu-HCI.html">Human & Computer <br> Interaction</a>             
+            <a class="collapse-item" href="../../Lab/CF/Menu-CF.html">Cyber Forensic</a>
+            <a class="collapse-item" href="../../Lab/OS/Menu-OS.html">Operating System</a>
+          </div></div></li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider d-none d-md-block">
+
+        <!-- Sidebar Toggler (Sidebar) -->
+        <div class="text-center d-none d-md-inline"><button class="rounded-circle border-0" id="sidebarToggle"></button></div>
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <!-- Main Content -->
+      <div id="content">
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow ">
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3"><i class="fa fa-bars"></i> </button>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bell fa-fw"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">1</span> </a>
+              <!-- Dropdown - Alerts -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header bg-dark">Alerts Center </h6>
+                <!-- Alert Messages -->
+                <a class="dropdown-item d-flex align-items-center" href="#">   
+                  <div class="mr-3"><div class="icon-circle bg-success"><i class="fas fa-file-alt text-white"></i></div></div>
+                  <div><div class="small text-gray-500">August 17, 2019</div><span>New GUI for HackerJinja</span> </div>
+                </a>
+                <!-- Add new Alert in here -->
+              </div>
+            </li>
+
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-envelope fa-fw"></i>
+                <!-- Counter - Messages -->
+                <span class="badge badge-danger badge-counter">1</span>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown"><h6 class="dropdown-header bg-dark"> Message Center</h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <!-- New Message -->
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="images/marisa kecil.jpg" alt=""><div class="status-indicator bg-success"></div>
+                  </div>
+                  <div class="font-weight-bold">
+                    <div class="text-truncate">Welcome to HackerJinja</div><div class="small text-gray-500">Yonathan Wieliem</div>
+                  </div>
+                </a>
+                <!-- Add New Message in here -->
+              </div> </li><div class="topbar-divider d-none d-sm-block"></div>
+  
+          </ul>
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- SECTION CONTENT. FILL YOUR CONTENT IN HERE !!! -->
+         
+
+             <!-- Page Heading/Breadcrumbs -->
+             <div class="jumbotron bg-success text-white">
+              <h1>Investement</h1>
+           </div>
+        
+          <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                  <a class="text-success" href="../../index.html">Home</a>
+                </li>
+                  <li class="breadcrumb-item"> Materi </li>
+                <li class="breadcrumb-item "> <a  class="text-success" href="Menu-E2.html">Entrepreneurship 2</a></li>
+                <li class="breadcrumb-item active">Chapter-11 </li>
+          </ol>
+        
+          <!-- Content Row -->
+          <div class="row">
+            <!-- Sidebar Column -->
+            <div class="col-lg-3 mb-4">
+              <div class="list-group">
+                <a href="E2-01.html" class="list-group-item text-success">Introduction , Value proposition, Customer Segments</a>
+                <a href="E2-02.html" class="list-group-item  text-success">Business model overview</a>
+                <a href="E2-03.html" class="list-group-item  text-success">Channels & Customer Relationships</a>
+                <a href="E2-04.html" class="list-group-item  text-success">Marketing</a>
+                <a href="E2-05.html" class="list-group-item  text-success">Operation Management</a>
+                <a href="E2-06.html" class="list-group-item  text-success">Key Resource, Key Activities, Key Partnerships</a>
+                <a href="E2-07.html" class="list-group-item  text-success">Revenue Streams & Cost Structure</a>
+                <a href="E2-08.html" class="list-group-item  text-success">Finance</a>
+                <a href="E2-09.html" class="list-group-item  text-success">Prototyping</a>
+                <a href="E2-10.html" class="list-group-item  text-success">Business Model Pattern</a>
+                <a href="E2-11.html" class="list-group-item  active-success text-white bg-success">Investement</a>
+                <a href="E2-12.html" class="list-group-item  text-success">Intellectual Property Rights</a>
+                <a href="E2-13.html" class="list-group-item  text-success">Final Presentation</a>
+                <!-- active -->
+               
+              </div>
+            </div>
+            <!-- Content Column -->
+            <div class="col-lg-9 mb-4">
+              <!-- Materi isi disini ya -->
+           <p class="lead text-success">Mengapa Bisnis memerlukan keuangan?</p><hr>
+           <p>
+              •	Memulai bisnis, mis. membayar tempat, peralatan baru dan iklan.
+             <br> •	Menjalankan bisnis, mis. memiliki cukup uang tunai untuk membayar upah staf dan pemasok tepat waktu.
+             <br> •	Memperluas bisnis, mis. memiliki dana untuk membayar cabang baru di kota atau negara lain
+              
+           </p><br>
+
+           <p class="lead text-success">Bootstrap</p><hr>
+           <p>
+              Bootstrap adalah situasi di mana seorang pengusaha memulai sebuah perusahaan dengan modal kecil
+              <br><br>
+              Seseorang dikatakan bootstrap ketika dia berusaha untuk menemukan dan membangun perusahaan dari keuangan pribadi atau dari pendapatan operasi perusahaan baru
+              
+           </p><br>
+
+           <p class="lead text-success">Business Valuation</p><hr>
+           <p>
+              Merupakan proses untuk menentukan nilai ekonomis sebuah perusahaan. <br><br>
+              Business valuation bisa digunakan untuk menentukan nilai wajar suatu bisnis karena berbagai alasan, termasuk nilai jual, menetapkan kepemilikan mitra, dan proses divorce.<br><br>
+              Sering kali, pemilik akan beralih ke Valuator bisnis profesional untuk perkiraan obyektif dari nilai bisnis.
+              
+           </p><br>
+
+           <p class="lead text-success">Kalkulasi Valuasi sebuah perusahaan</p><hr>
+           <p>
+              1.	Menambahkan penggantian biaya aset<br>
+              2.	Menetapkan aliran pendapatan perusahaan<br>
+              3.	Menganalisis pendapatan perusahaan<br>
+              4.	Hitung nilai bersih bisnis yang sekarang<br>
+              5.	Menilai faktor-faktor non-keuangan<br>
+              
+           </p><br>
+
+           <p class="lead text-success">Tipe investor</p><hr>
+           <p>
+             <b>•	Bank</b> 
+              <br>    -	Pinjaman dana dari bank akan membantu untuk kita mendirikan perusahaan
+              <br>   -	Bersiaplah untuk membuktikan tanggung jawab keuangan dan tunggu waktu yang diperlukan untuk memproses pinjaman
+              <br>   -	Bank ingin melihat rencana bisnis yang solid. Ini membantu memiliki pengalaman pribadi dalam industri atau mentor yang baik yang berpengalaman dalam industri ini
+              <br><br>
+             <b>•	Angel investor</b> 
+              <br> -	Pengusaha yang memiliki kekayaan cukup untuk membantu orang lain. Angel investors berinvestasi dalam bisnis yang mereka percayai tetapi mereka sadari mungkin berjuang untuk menemukan pembiayaan lain.
+              <br> -	Dapat membeli saham dari perusahaan atau membuat pinjaman.
+              <br> -	Beberapa berfungsi sebagai mentor dan penasihat. Beberapa mungkin berspesialisasi, seperti pihak yang punya  teknologi tinggi yang lebih suka membantu membawa teknologi baru ke pasar dan mungkin atau mungkin tidak ingin berpartisipasi aktif dalam perusahaan.
+              <br><br>
+             <b> •	P2P Lending</b>
+              <br>  -	Pinjaman peer-to-peer memungkinkan orang membuat daftar proyek online untuk dipertimbangkan oleh calon investor
+              <br>   -	Jenis investor ini menyatukan startup dan pemilik usaha kecil bersama dengan pengusaha yang bersedia membantu dan berinvestasi
+              <br>  -	Jika terlibat dalam pinjaman peer-to-peer, pastikan Anda memahami ketentuan pinjaman Anda dan melakukan pembayaran tepat waktu
+              <br>   -	Tertinggal dalam P2P lending,  dapat meningkatkan biaya Anda dan mencegah Anda mencari pinjaman peer-to-peer lainnya.
+              <br><br>
+              <b>•	Venture Capitalist</b>
+              <br>  -	Investor jenis ini mengharapkan Anda untuk menunjukkan bahwa Anda memiliki rencana bisnis yang solid
+              <br> -	Seorang pemodal ventura juga ingin melihat laba yang tinggi
+              <br> -	Kapitalis ventura dapat berinvestasi sebanyak jutaan dolar
+              <br>   -	Mereka melakukannya dengan mengamankan modal ekuitas, atau saham di perusahaan Anda
+              <br><br>
+             <b>•	Personal Investor</b> 
+              <br> -	Biaya Start-up dari Teman dan keluarga
+              <br>   -	Menggabungkan bisnis dengan keluarga berisiko, membawa perselisihan bisnis ke pertemuan keluarga dan acara lainnya
+              <br>  -	Anda berisiko melukai tidak hanya keuangan Anda tetapi juga kerabat atau teman jika bisnis tidak berjalan sebaik yang Anda antisipasi
+              <br><br>
+           </p><br>
+
+           <p class="lead text-success">Investement Stages – Types of Funding</p><hr>
+           <p>
+            <b>•	Angel</b>  
+              <br> -	Angel rounds adalah babak pertama yang mungkin dilalui perusahaan
+              <br>  -	Investor Angel, teman, dan / atau keluarga dapat berinvestasi dalam angel round untuk mendapatkan perusahaan baru
+              <br><br>
+            <b> •	Seed</b> 
+              <br> -	$ 10K - $ 2 juta
+              <br> -	Seed round adalah salah satu putaran pertama pendanaan
+              <br> -	Biasanya datang setelah putaran Angel (jika ada), tetapi sebelum putaran ‘Series’
+              <br><br>
+              <b>•	Venture</b>
+              <br> -	Series A,B,C,…,H
+              <br> -	Series A-B funding rounds for earlier stage companies
+              <br> -	Series A-B: $1M-$20M
+              <br>-	Series C onwards: >= $10M
+              
+           </p><br>
+                
+        
+              </div>
+          </div>
+
+
+
+        <!-- END OF SECTION CONTENTS -->
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white"><div class="container my-auto"><div class="copyright text-center my-auto">
+            <span>Copyright &copy; Shinichi Nazakato 2019</span>
+          </div></div>
+      </footer>
+      <!-- End of Footer -->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+  <!-- End of Page Wrapper -->
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+ <!-- JS SCRIPTS -->
+  <script src="../../vendor/jquery/jquery.min.js"></script><script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script><script src="../../vendor/jquery-easing/jquery.easing.min.js"></script><script src="../../js/sb-admin-2.min.js"></script>
+</body></html>
+
+

@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>HackerJinja V.2.0</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="../../css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <style> *{ font-family: "Lexend Deca"; }  </style>
+    
+     
+</head>
+
+<!-- Brand Navbar -->
+<nav class="navbar bg-success ">
+<header>
+    <h1 class="h3  mb-2 text-white font-weight-bold text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HackerJinja</h1>
+</header>
+<a href="../../about.html" class="nav-item text-white"> About</a>
+</nav>
+
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar nav (EDIT THIS !) -->
+    <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
+        <!-- Sidebar - Brand -->
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#"><div class="sidebar-brand-text mx-3">Menu</div></a>
+        
+        <!-- Divider -->
+        <hr class="sidebar-divider my-0">
+
+        <!-- Nav Item - Dashboard -->
+        <li class="nav-item"><a class="nav-link" href="../../index.html"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+          
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading active text-white">Cyber Security</div>   
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item"> 
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages"><i class="fas fa-fw fa-folder"></i>
+          <span>Courses</span></a>
+          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Available Courses</h6>
+              <a class="collapse-item" href="Menu-CF.html">Cyber Forensic</a>
+              <a class="collapse-item" href="../CL/Menu-CL.html">Cyber Law</a>
+              <a class="collapse-item" href="../HCI/Menu-HCI.html">Human & Computer<br> Interaction</a>
+              <a class="collapse-item" href="../OS/Menu-OS.html">Operating System</a>
+              <a class="collapse-item" href="../AI/Menu-AI.html">Artificial Intelligence</a>
+              <a class="collapse-item" href="../E2/Menu-E2.html">Entrepreneurship 2</a>
+          </div></div></li>
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item"><a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities"><i class="fas fa-fw fa-folder"></i>
+        <span>Lab</span></a>
+        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">       
+            <a class="collapse-item" href="../../Lab/HCI/Menu-HCI.html">Human & Computer <br> Interaction</a>             
+            <a class="collapse-item" href="../../Lab/CF/Menu-CF.html">Cyber Forensic</a>
+            <a class="collapse-item" href="../../Lab/OS/Menu-OS.html">Operating System</a>
+          </div></div></li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider d-none d-md-block">
+
+        <!-- Sidebar Toggler (Sidebar) -->
+        <div class="text-center d-none d-md-inline"><button class="rounded-circle border-0" id="sidebarToggle"></button></div>
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <!-- Main Content -->
+      <div id="content">
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow ">
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3"><i class="fa fa-bars"></i> </button>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bell fa-fw"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">1</span> </a>
+              <!-- Dropdown - Alerts -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header bg-dark">Alerts Center </h6>
+                <!-- Alert Messages -->
+                <a class="dropdown-item d-flex align-items-center" href="#">   
+                  <div class="mr-3"><div class="icon-circle bg-success"><i class="fas fa-file-alt text-white"></i></div></div>
+                  <div><div class="small text-gray-500">August 17, 2019</div><span>New GUI for HackerJinja</span> </div>
+                </a>
+                <!-- Add new Alert in here -->
+              </div>
+            </li>
+
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-envelope fa-fw"></i>
+                <!-- Counter - Messages -->
+                <span class="badge badge-danger badge-counter">1</span>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown"><h6 class="dropdown-header bg-dark"> Message Center</h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <!-- New Message -->
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="../../images/marisa kecil.jpg" alt=""><div class="status-indicator bg-success"></div>
+                  </div>
+                  <div class="font-weight-bold">
+                    <div class="text-truncate">Welcome to HackerJinja</div><div class="small text-gray-500">Yonathan Wieliem</div>
+                  </div>
+                </a>
+                <!-- Add New Message in here -->
+              </div> </li><div class="topbar-divider d-none d-sm-block"></div>
+  
+          </ul>
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- SECTION CONTENT. FILL YOUR CONTENT IN HERE !!! -->
+          <div class="jumbotron my-4 bg-success text-white">
+            <!-- Page Heading/Breadcrumbs -->
+            <h1>Windows System Artifacts</h1>
+          </div>
+          <ol class="breadcrumb ">
+            <li class="breadcrumb-item text-success">
+                <a class="text-success" href="../../index.html">Home</a>
+              </li>
+                <li class="breadcrumb-item "> Materi </li>
+              <li class="breadcrumb-item  "> <a class="text-success" href="Menu-CF.html">Cyber Forensic</a></li>
+              <li class="breadcrumb-item active ">Chapter-05</li>
+        </ol>
+
+<!-- Content Row -->
+<div class="row">
+  <!-- Sidebar Column -->
+  <div class="col-lg-3 mb-4">
+    <div class="list-group">
+        <a href="CF-01.html" class="list-group-item text-success">Introduction to Cyber Forensic</a>
+        <a href="CF-02.html" class="list-group-item text-success">Key Technical Concepts</a>
+        <a href="CF-03.html" class="list-group-item text-success">Digital Forensic Tools</a>
+        <a href="CF-04.html" class="list-group-item text-success">Collecting Evidence</a>
+        <a href="CF-05.html" class="list-group-item active-success text-white bg-success">Windows System Artifacts</a>
+        <a href="CF-06.html" class="list-group-item text-success">Antiforensics</a>
+        <a href="CF-07.html" class="list-group-item text-success">Internet & Email Forensic</a>
+        <a href="CF-08.html" class="list-group-item text-success">Legal Issues in Digital Forensic</a>
+        <a href="CF-09.html" class="list-group-item text-success">Network Forensics</a>
+        <a href="CF-10.html" class="list-group-item text-success">Mobile Device Forensics</a>
+        <a href="CF-11.html" class="list-group-item text-success">Challenges & Concerns in Digital Forensic</a>
+      <!-- active -->
+     
+    </div>
+  </div>
+  <!-- Content Column -->
+  <div class="col-lg-9 mb-4">
+    
+    <p>Berikut ada beberapa hal yang perlu diperhatikan dalam forensik OS Windows : </p>
+    <!-- Post Content -->
+    <p class="lead text-success">Deleted Data</p><hr>
+    <p>Delete data Cuma kasih tau ke komputer kalo space yg dipake si file tsb available jika komputer emang butuh mau pake.
+        Data yg ter-delete ini akan tetap bertahan sampe ada file lain yg overwrite dirinya.</p>
+    <br>
+
+    <p class="lead text-success">File Carving</p><hr>
+    <p>Metode ini dipakai utk mengekstrak data yg ada dalam sebuah unallocated space dalam hard drive. File2 tsb bisa saja
+        punya karakteristik unik. (Header dan footer sebuah file)</p>
+    <br>
+
+    <p class="lead text-success">Registry</p><hr>
+    <p>Registry ini ibarat kata adalah database dari file2 konfigurasi sistem (kek sistem saraf manusia aja). Registry ini di
+        dalamnya ada user config dan system config, juga preferences. Tapi Registry sangat potensial menjadi evidence. </p>
+    <br>
+
+    <p class="lead text-success">MRU - Most Recent Used</p><hr>
+    <p>Ini bisa jadi tempat yg potensial utk nyari evidence. File2 apa aja yg baru dibuka, dan lokasinya tercatat disini.</p>
+    <br>
+
+    <p class="lead text-success">Jenis-jenis sleep</p><hr>
+    <p>
+      <li> <b>Sleep Mode</b> Tujuannya untuk menghemat energi tetapi juga bertujuan untuk mengembalikan komputer ke operasi secepat mungkin</li>
+      <br>
+
+      <li><b>Hibernation</b> juga merupakan mode hemat daya tetapi lebih ditujukan untuk laptop Ketimbang PC desktop. Disinilah kita mulai melihat beberapa manfaat investigasi
+      yang potensial. Dalam mode ini, semua data dalam RAM ditulis ke hard drive, yang, seperti kita tahu, jauh lebih sulit untuk dihilangkan.</li>
+        <br>
+      <li><b>Hybrid Sleep </b> adalah perpaduan dari dua mode sebelumnya dan ini ditujukan terutama untuk PC desktop. Teknik ini membuat sejumlah kecil daya listrik diterapkan ke RAM (utk menjaga data dan aplikasi ) dan menulis data ke disk</li>
+    </p>
+    <br>
+
+    <p class="lead text-success">Jenis-jenis Metadata</p><hr>
+    <p>
+      <li>
+       <b>Metadata deskriptif</b>  menggambarkan resource dalam arti
+        penemuan (invention) dan identifikasi. Tipe ini dapat
+        mencakup elemen-elemen seperti judul, abstraksi, author
+        file , dan keywords.
+      </li><br>
+      <li>
+       <b>Metadata struktural</b>  menunjukkan bagaimana collection
+        dari object disusun bersama menjadi satu, seperti
+        bagaimana halaman disusun untuk membentuk sebuah
+        bab.
+      </li><br>
+      <li>
+        <b>Metadata administratif</b> menyediakan informasi untuk
+        membantu mengelola resource, seperti kapan dan
+        bagaimana informasi dibuat, jenis dokumen dan informasi
+        teknis lainnya, dan siapa yang dapat mengaksesnya.
+      </li>
+    </p>
+    <br>
+    
+    <p class="lead text-success">Komponen dalam Metadata</p><hr>
+    <p>
+      <li><b>Created</b>
+      — date
+      / time stamp yang dibuat sering
+      menunjukkan kapan suatu file atau folder dibuat pada
+      media tertentu , seperti hard drive. Bagaimana file itu
+      sampai di sana dan membuat perbedaan. Pada umumnya,sebuah file dapat berupa disimpan
+      , disalin, dipotong dan disisipkan, atau drag ‘n drop.</li>
+      <br>
+      <li>
+      <b>Modified</b> — Tanggal dan waktu yang diubah ketika file
+      sedang diubah dengan cara apa pun dan kemudian
+      disimpan
+      </li>
+      <br>
+      <li>
+      <b>Accessed</b>
+      — date
+      / time stamp diperbarui setiap kali file
+      diakses oleh file sistem. Diakses tidak berarti sama dengan
+      dibuka scr langsung.
+      </li>
+    </p>
+    <br>
+
+    <p class="lead text-success">Recovery of Evidence</p><hr>
+    <p>
+      <li> <b>Restore Point</b> 
+      adalah snapshot dari pengaturan dan konfigurasi sistem utama yg ada pada
+      beberapa waktu yg spesifik. Snapshots ini dapat digunakan untuk mengembalikan sistem ke
+      working order sebelumnya. Restore point dibuat dengan cara yang berbeda, dimana dapat
+      dibuat oleh sistem secara otomatis sebelum peristiwa sistem utama, seperti saat sedang
+      menginstal software. Restore point dapat pula dijadwalkan secara berkala.</li>
+      <br>
+      <li>
+      <b>Shadow Copies</b> memberikan source data utk restore point. Dengan memakai shadow copy
+      maka kita bisa melakukan demonstrasi bagaimana sebuah file bisa berubah dari waktu ke
+      waktu. Bisa juga buat nahan file kopian dari file asli yg udh kehapus.
+
+      </li>
+    </p>
+    </div>
+    </div>
+        <!-- END OF SECTION CONTENTS -->
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white"><div class="container my-auto"><div class="copyright text-center my-auto">
+            <span>Copyright &copy; Shinichi Nazakato 2019</span>
+          </div></div>
+      </footer>
+      <!-- End of Footer -->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+  <!-- End of Page Wrapper -->
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+ <!-- JS SCRIPTS -->
+  <script src="../../vendor/jquery/jquery.min.js"></script><script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script><script src="../../vendor/jquery-easing/jquery.easing.min.js"></script><script src="../../js/sb-admin-2.min.js"></script>
+</body></html>
+
+

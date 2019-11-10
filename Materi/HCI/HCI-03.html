@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>HackerJinja V.2.0</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="../../css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <style> *{ font-family: "Lexend Deca"; }  </style>
+    
+     
+</head>
+
+<!-- Brand Navbar -->
+<nav class="navbar bg-success ">
+<header>
+    <h1 class="h3  mb-2 text-white font-weight-bold text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HackerJinja</h1>
+</header>
+<a href="../../about.html" class="nav-item text-white"> About</a>
+</nav>
+
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar nav (EDIT THIS !) -->
+    <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
+        <!-- Sidebar - Brand -->
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#"><div class="sidebar-brand-text mx-3">Menu</div></a>
+        
+        <!-- Divider -->
+        <hr class="sidebar-divider my-0">
+
+        <!-- Nav Item - Dashboard -->
+        <li class="nav-item"><a class="nav-link" href="../../index.html"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+          
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading active text-white">Cyber Security</div>   
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item"> 
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages"><i class="fas fa-fw fa-folder"></i>
+          <span>Courses</span></a>
+          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Available Courses</h6>
+              <a class="collapse-item" href="../CF/Menu-CF.html">Cyber Forensic</a>
+              <a class="collapse-item" href="../CL/Menu-CL.html">Cyber Law</a>
+              <a class="collapse-item" href="Menu-HCI.html">Human & Computer<br> Interaction</a>
+              <a class="collapse-item" href="../OS/Menu-OS.html">Operating System</a>
+              <a class="collapse-item" href="../AI/Menu-AI.html">Artificial Intelligence</a>
+              <a class="collapse-item" href="../E2/Menu-E2.html">Entrepreneurship 2</a>
+          </div></div></li>
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item"><a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities"><i class="fas fa-fw fa-folder"></i>
+        <span>Lab</span></a>
+        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">       
+            <a class="collapse-item" href="../../Lab/HCI/Menu-HCI.html">Human & Computer <br> Interaction</a>             
+            <a class="collapse-item" href="../../Lab/CF/Menu-CF.html">Cyber Forensic</a>
+            <a class="collapse-item" href="../../Lab/OS/Menu-OS.html">Operating System</a>
+          </div></div></li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider d-none d-md-block">
+
+        <!-- Sidebar Toggler (Sidebar) -->
+        <div class="text-center d-none d-md-inline"><button class="rounded-circle border-0" id="sidebarToggle"></button></div>
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <!-- Main Content -->
+      <div id="content">
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow ">
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3"><i class="fa fa-bars"></i> </button>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bell fa-fw"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">1</span> </a>
+              <!-- Dropdown - Alerts -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header bg-dark">Alerts Center </h6>
+                <!-- Alert Messages -->
+                <a class="dropdown-item d-flex align-items-center" href="#">   
+                  <div class="mr-3"><div class="icon-circle bg-success"><i class="fas fa-file-alt text-white"></i></div></div>
+                  <div><div class="small text-gray-500">August 17, 2019</div><span>New GUI for HackerJinja</span> </div>
+                </a>
+                <!-- Add new Alert in here -->
+              </div>
+            </li>
+
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-envelope fa-fw"></i>
+                <!-- Counter - Messages -->
+                <span class="badge badge-danger badge-counter">1</span>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown"><h6 class="dropdown-header bg-dark"> Message Center</h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <!-- New Message -->
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="../../images/marisa kecil.jpg" alt=""><div class="status-indicator bg-success"></div>
+                  </div>
+                  <div class="font-weight-bold">
+                    <div class="text-truncate">Welcome to HackerJinja</div><div class="small text-gray-500">Yonathan Wieliem</div>
+                  </div>
+                </a>
+                <!-- Add New Message in here -->
+              </div> </li><div class="topbar-divider d-none d-sm-block"></div>
+  
+          </ul>
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- SECTION CONTENT. FILL YOUR CONTENT IN HERE !!! -->
+          <div class="jumbotron bg-success text-white">
+            <!-- Page Heading/Breadcrumbs -->
+           <h1>Cognitive Aspects</h1>
+          </div>
+        
+        
+            <ol class="breadcrumb ">
+                <li class="breadcrumb-item text-success">
+                    <a class="text-success" href="../../index.html">Home</a>
+                  </li>
+                    <li class="breadcrumb-item "> Materi </li>
+                  <li class="breadcrumb-item  "> <a class="text-success" href="menu-HCI.html">Human & Computer Interaction</a></li>
+                  <li class="breadcrumb-item active ">Chapter-03 </li>
+            </ol>
+        
+            <!-- Content Row -->
+            <div class="row ">
+              <!-- Sidebar Column -->
+              <div class="col-lg-3 mb-4 ">
+                <div class="list-group">
+                  <a href="HCI-01.html" class="list-group-item text-success">Interaction Design</a>
+                  <a href="HCI-02.html" class="list-group-item text-success">Understanding & Conceptualizing Interaction</a>
+                  <a href="HCI-03.html" class="list-group-item active-success text-white bg-success">Cognitive Aspects</a>
+                  <a href="HCI-04.html" class="list-group-item text-success">Social Interaction</a>
+                  <a href="HCI-05.html" class="list-group-item text-success">Emotional Interaction</a>
+                  <a href="HCI-06.html" class="list-group-item text-success">Interfaces</a>
+                  <a href="HCI-07.html" class="list-group-item text-success">Review Mid Term</a>
+                  <a href="HCI-08.html" class="list-group-item text-success">Establishing Requirements</a>
+                  <a href="HCI-09.html" class="list-group-item text-success">Data Analysis, Interpretation, Presentation</a>
+                  <a href="HCI-10.html" class="list-group-item text-success">Design, Prototyping, Construction</a>
+                  <a href="HCI-11.html" class="list-group-item text-success">Basic Evaluation</a>
+                  <a href="HCI-12.html" class="list-group-item text-success">Advanced Evaluation</a>
+                  <a href="HCI-13.html" class="list-group-item text-success">Review Final Term</a>
+                  <!-- active -->
+           
+          </div>
+        </div>
+        <!-- Content Column -->
+        <div class="col-lg-9 mb-4">
+          <br>
+          <p class="lead text-success">Overview</p><hr>
+          <p>
+              Studi tentang kognitif manusia dapat membantu untuk memahami ini dan jenis baru lainnya dari perilaku ‘computer augmented’ dengan memeriksa kemampuan dan keterbatasan manusia ketika berinteraksi dengan teknologi. Bergantung pada kapan, di mana, dan bagaimana hal itu terjadi, kognisi dapat didistribusikan, ditempatkan, diperluas, dan diwujudkan.
+          </p><br>
+  
+          <p class="lead text-success">Jenis proses kognitif</p><hr>
+          <p>
+             •<b>	Perhatian</b>
+             <br> proses memilih hal-hal untuk berkonsentrasi, pada suatu titik waktu, dari berbagai kemungkinan yang tersedia.
+              Perhatian melibatkan indera pendengaran dan visual
+              <br><br>
+              •<b>	Persepsi</b>
+              <br>Bagaimana informasi diperoleh dari lingkungan melalui organ indera yang berbeda - mata, telinga, jari dan mentransformasikannya menjadi pengalaman benda, peristiwa, suara, dan selera
+              Melibatkan proses kognitif lainnya seperti ingatan, perhatian, dan bahasa.
+              Visi adalah indera yang paling dominan untuk individu yang terlihat, diikuti oleh pendengaran dan sentuhan.
+              Prinsip desain umum nya adalah Informasi perlu direpresentasikan dalam bentuk yang sesuai untuk memfasilitasi persepsi dan pengakuan makna yang mendasarinya.
+              <br><br> 
+              •	<b>Ingatan</b>
+              <br>Ingatan melibatkan mengingat berbagai jenis pengetahuan yang memungkinkan kita bertindak dengan tepat. Tidak mungkin untuk mengingat semua yang kita lihat, dengar, rasakan, cium, atau sentuh.
+              Proses filtering digunakan untuk memutuskan informasi apa yang diproses dan dihafal lebih lanjut.
+              <br><br>
+              Faktor lain yang mempengaruhi sejauh mana informasi dapat diambil kembali adalah konteks di mana itu dikodekan.
+              Terkadang sulit bagi orang untuk mengingat informasi yang disandikan dalam konteks yang berbeda dari yang mereka gunakan saat ini.
+              Fenomena memori lain adalah bahwa orang jauh lebih baik dalam mengenali hal-hal daripada mengingat hal-hal. Secara khusus, orang sangat pandai mengenali ribuan gambar bahkan jika mereka hanya melihat secara singkat sebelumnya.
+              <br><br>
+              
+              •	<b>Belajar</b><br>
+              Belajar dapat dipertimbangkan dalam hal:
+              <br>-	Cara menggunakan aplikasi berbasis komputer
+              <br>-	Menggunakan aplikasi berbasis komputer untuk memahami topik yang diberikan.
+              <br><br>
+              Pengamatan utama kita adalah bahwa orang merasa sangat sulit untuk belajar dengan mengikuti serangkaian instruksi dalam manual. Sebaliknya, mereka lebih suka belajar melalui melakukan.
+              <br><br>
+              GUI dan antarmuka Manipulasi Langsung adalah lingkungan yang baik untuk mendukung pembelajaran aktif semacam ini dengan mendukung interaksi eksplorasi dan memungkinkan pengguna untuk membatalkan tindakan mereka.
+              <br><br>
+              Salah satu manfaat utama teknologi interaktif seperti pembelajaran berbasis web, multimedia, dan realitas virtual adalah:
+              <br><br>-	mereka menyediakan cara-cara alternatif untuk mewakili dan berinteraksi dengan informasi yang tidak mungkin dengan teknologi tradisional mis. buku.
+              <br><br>-	Teknologi interaktif memiliki potensi menawarkan peserta didik kemampuan untuk mengeksplorasi ide dan konsep dengan cara yang berbeda.
+              <br><br>-	Misalnya. simulasi multimedia interaktif telah dirancang untuk membantu mengajarkan konsep abstrak (mis. rumus matematika) yang sulit dipahami oleh siswa.
+              
+              <br><br><br>
+              •	<b>Membaca, berbicara, dan mendengarkan</b><br>
+              -	Membaca, berbicara, dan mendengarkan adalah tiga bentuk pemrosesan bahasa yang memiliki sifat yang sama dan berbeda.
+             <br><br> -	Salah satu kesamaan adalah bahwa makna kalimat atau frasa adalah sama terlepas dari mode di mana ia disampaikan.
+             <br><br>-	Kemudahan orang untuk membaca, mendengarkan, atau berbicara berbeda tergantung pada orang, tugas, dan konteksnya.
+              <br><br>
+              Perbedaan spesifik antara tiga model ini meliputi:
+              <br>-	Bahasa tertulis bersifat permanen sementara mendengarkan bersifat sementara.
+              <br>-	Membaca bisa lebih cepat daripada berbicara atau mendengarkan, karena teks tertulis dapat dengan cepat dipindai dengan cara yang tidak mungkin ketika mendengarkan kata-kata yang diucapkan secara seri.
+              <br>-	Mendengarkan membutuhkan sedikit usaha kognitif daripada membaca atau berbicara.
+              <br>-	Bahasa tertulis cenderung gramatikal sedangkan bahasa lisan sering tidak ungrammatis.
+              <br>-	Disleksia mengalami kesulitan memahami dan mengenali kata-kata tertulis, membuatnya sulit bagi mereka untuk menulis kalimat tata bahasa dan mengeja dengan benar.
+              
+              <br><br>
+  
+              •<b>	Pemecahan masalah, perencanaan, penalaran, dan pengambilan keputusan.</b><br>
+              Pemecahan masalah, perencanaan, penalaran dan pengambilan keputusan adalah proses yang melibatkan kognisi reflektif.
+              <br><br>
+              Mereka termasuk berpikir tentang apa yang harus dilakukan, apa pilihannya, dan apa konsekuensinya dari melakukan tindakan yang diberikan.
+              
+              Mereka sering melibatkan proses sadar (menyadari apa yang sedang dipikirkan), diskusi dengan orang lain (atau diri sendiri), dan penggunaan berbagai jenis artefak (mis. Peta, buku, pena, dan kertas).
+              <br><br>
+              Sejauh mana orang terlibat dalam kognisi reflektif tergantung pada tingkat pengalaman mereka dengan domain, aplikasi, atau keterampilan.
+              <br><br>
+              Murid-murid cenderung memiliki pengetahuan yang terbatas dan akan sering membuat asumsi tentang apa yang harus dilakukan dengan menggunakan pengetahuan lain tentang situasi yang sama. Mereka cenderung bertindak dengan coba-coba, mengeksplorasi dan bereksperimen dengan cara melakukan sesuatu.
+              <br><br>
+              Para Ahli memiliki lebih banyak pengetahuan dan pengalaman dan dapat memilih strategi optimal untuk melaksanakan tugas mereka.
+              <br><br>
+              Alih-alih membuktikan lebih banyak informasi untuk memungkinkan orang membandingkan produk ketika membuat pilihan, strategi yang lebih baik adalah merancang intervensi teknologi yang menyediakan informasi yang cukup dan dalam bentuk yang tepat, untuk memfasilitasi pilihan yang baik.
+              <br><br>
+              Salah satu solusinya adalah memanfaatkan bentuk-bentuk baru teknologi augmented reality yang memungkinkan pengambilan keputusan yang hemat informasi.
+              <br><br>
+          </p><br>
+  
+  
+          <p class="lead text-success">Design for cognitive processes</p><hr>
+          <p>
+              •	<b>Attention</b> <br>
+              o	Jadikan informasi penting ketika perlu diperhatikan pada tahap tugas tertentu.
+              <br><br>o	Gunakan teknik seperti gambar animasi, warna, garis bawah, pemesanan barang, urutan informasi yang berbeda, dan jarak item untuk mencapai hal ini.
+              <br> <br>o	Hindari mengacaukan antarmuka dengan terlalu banyak informasi.
+              <br><br>o	Mesin pencari dan pengisian formulir yang sederhana lebih mudah digunakan. (Mis: Google)
+              <br><br>
+              
+              •	<b>Perception</b> <br>
+              o	ikon dan representasi grafis lainnya harus memungkinkan pengguna untuk dengan mudah membedakan maknanya.
+              <br> <br>o	Membatasi dan mengatur jarak adalah cara visual yang efektif untuk mengelompokkan informasi yang membuatnya lebih mudah untuk melihat dan menemukan item.
+              <br> <br>o	Suara harus terdengar dan dapat dibedakan
+              <br> <br>o	Output ucapan harus memungkinkan pengguna untuk membedakan antara set kata-kata yang diucapkan dan memahami artinya.
+              <br> <br>o	Teks harus dapat dibaca dan dibedakan dari latar belakang
+              <br> <br>o	Umpan balik taktil yang digunakan dalam lingkungan virtual harus memungkinkan pengguna untuk mengenali arti dari berbagai sensasi sentuhan yang ditiru.
+              <br><br>
+  
+              •	<b>Memory</b><br>
+              o	Jangan membebani ingatan pengguna dengan prosedur rumit untuk melakukan tugas.
+              <br>  <br>o	Desain sebuah antarmuka yang mempromosikan pengenalan daripada mengingat dengan menggunakan menu, ikon dan objek yang ditempatkan secara konsisten.
+              <br>  <br>o	Menyediakan berbagai cara untuk menyandikan informasi digital kepada pengguna (mis. File, email, gambar) untuk membantu mereka mengingat di mana mereka menyimpannya, melalui penggunaan kategori, warna, penandaan, timestamp, ikon, dll.
+              
+              <br><br>
+  
+              •	<b>Learning </b><br>
+              o	Desain antarmuka yang mendorong eksplorasi
+              <br> <br>o	Rancang antarmuka yang membatasi dan memandu pengguna untuk memilih tindakan yang sesuai ketika awalnya belajar.
+              <br> <br>o	Secara dinamis menghubungkan representasi konkret dan konsep abstrak untuk memfasilitasi pembelajaran materi yang kompleks.
+              
+              <br><br>
+              •	<b>Reading, speaking, & listening</b><br>
+              o	Jaga agar panjang menu dan instruksi berbasis ucapan seminimal mungkin.
+              <br> <br>o	Menekankan intonasi suara-suara pidato yang dihasilkan secara artifisial karena lebih sulit untuk dipahami daripada suara manusia.
+              <br> <br>o	Berikan peluang untuk membuat teks menjadi besar di layar, tanpa memengaruhi pemformatan, bagi orang-orang yang kesulitan membaca teks kecil.
+              
+              <br><br>
+              •	<b>Pemecahan masalah, perencanaan, penalaran, dan pengambilan keputusan.</b><br>
+              o	Berikan informasi tersembunyi tambahan yang mudah diakses bagi pengguna yang ingin memahami lebih banyak tentang bagaimana melakukan suatu kegiatan dengan lebih efektif. (mis. pencarian Web).
+              
+              <br> <br>o	Gunakan fungsi-fungsi sederhana dan mudah diingat pada antarmuka untuk alat bantu komputasi yang dimaksudkan untuk mendukung pengambilan keputusan dan perencanaan yang cepat yang terjadi saat adanya pergerakan
+              
+          </p><br>
+          
+        
+  
+          
+          
+          
+        </div>
+        <!-- End of Content Column -->
+  
+          </div>
+
+        <!-- END OF SECTION CONTENTS -->
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white"><div class="container my-auto"><div class="copyright text-center my-auto">
+            <span>Copyright &copy; Shinichi Nazakato 2019</span>
+          </div></div>
+      </footer>
+      <!-- End of Footer -->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+  <!-- End of Page Wrapper -->
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+ <!-- JS SCRIPTS -->
+  <script src="../../vendor/jquery/jquery.min.js"></script><script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script><script src="../../vendor/jquery-easing/jquery.easing.min.js"></script><script src="../../js/sb-admin-2.min.js"></script>
+</body></html>
+
+

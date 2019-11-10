@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>HackerJinja V.2.0</title>
+
+  <!-- Custom fonts for this template-->
+  <link href="../../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link href="../../css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+
+  <style> *{ font-family: "Lexend Deca"; }  </style>
+    
+     
+</head>
+
+<!-- Brand Navbar -->
+<nav class="navbar bg-success ">
+<header>
+    <h1 class="h3  mb-2 text-white font-weight-bold text-left">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HackerJinja</h1>
+</header>
+<a href="../../about.html" class="nav-item text-white"> About</a>
+</nav>
+
+
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar nav (EDIT THIS !) -->
+    <ul class="navbar-nav bg-gradient-success sidebar sidebar-dark accordion" id="accordionSidebar">
+        <!-- Sidebar - Brand -->
+        <a class="sidebar-brand d-flex align-items-center justify-content-center" href="#"><div class="sidebar-brand-text mx-3">Menu</div></a>
+        
+        <!-- Divider -->
+        <hr class="sidebar-divider my-0">
+
+        <!-- Nav Item - Dashboard -->
+        <li class="nav-item"><a class="nav-link" href="../../index.html"><i class="fas fa-fw fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+          
+        <!-- Divider -->
+        <hr class="sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading active text-white">Cyber Security</div>   
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item"> 
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages"><i class="fas fa-fw fa-folder"></i>
+          <span>Courses</span></a>
+          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Available Courses</h6>
+              <a class="collapse-item" href="../CF/Menu-CF.html">Cyber Forensic</a>
+              <a class="collapse-item" href="../CL/Menu-CL.html">Cyber Law</a>
+              <a class="collapse-item" href="Menu-HCI.html">Human & Computer<br> Interaction</a>
+              <a class="collapse-item" href="../OS/Menu-OS.html">Operating System</a>
+              <a class="collapse-item" href="../AI/Menu-AI.html">Artificial Intelligence</a>
+              <a class="collapse-item" href="../E2/Menu-E2.html">Entrepreneurship 2</a>
+          </div></div></li>
+
+      <!-- Nav Item - Utilities Collapse Menu -->
+      <li class="nav-item"><a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities"><i class="fas fa-fw fa-folder"></i>
+        <span>Lab</span></a>
+        <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">       
+            <a class="collapse-item" href="../../Lab/HCI/Menu-HCI.html">Human & Computer <br> Interaction</a>             
+            <a class="collapse-item" href="../../Lab/CF/Menu-CF.html">Cyber Forensic</a>
+            <a class="collapse-item" href="../../Lab/OS/Menu-OS.html">Operating System</a>
+          </div></div></li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider d-none d-md-block">
+
+        <!-- Sidebar Toggler (Sidebar) -->
+        <div class="text-center d-none d-md-inline"><button class="rounded-circle border-0" id="sidebarToggle"></button></div>
+    </ul>
+    <!-- End of Sidebar -->
+
+    <!-- Content Wrapper -->
+    <div id="content-wrapper" class="d-flex flex-column">
+      <!-- Main Content -->
+      <div id="content">
+        <!-- Topbar -->
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow ">
+          <!-- Sidebar Toggle (Topbar) -->
+          <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3"><i class="fa fa-bars"></i> </button>
+
+          <!-- Topbar Navbar -->
+          <ul class="navbar-nav ml-auto">
+
+            <!-- Nav Item - Alerts -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bell fa-fw"></i>
+                <!-- Counter - Alerts -->
+                <span class="badge badge-danger badge-counter">1</span> </a>
+              <!-- Dropdown - Alerts -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                <h6 class="dropdown-header bg-dark">Alerts Center </h6>
+                <!-- Alert Messages -->
+                <a class="dropdown-item d-flex align-items-center" href="#">   
+                  <div class="mr-3"><div class="icon-circle bg-success"><i class="fas fa-file-alt text-white"></i></div></div>
+                  <div><div class="small text-gray-500">August 17, 2019</div><span>New GUI for HackerJinja</span> </div>
+                </a>
+                <!-- Add new Alert in here -->
+              </div>
+            </li>
+
+            <!-- Nav Item - Messages -->
+            <li class="nav-item dropdown no-arrow mx-1"><a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-envelope fa-fw"></i>
+                <!-- Counter - Messages -->
+                <span class="badge badge-danger badge-counter">1</span>
+              </a>
+              <!-- Dropdown - Messages -->
+              <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="messagesDropdown"><h6 class="dropdown-header bg-dark"> Message Center</h6>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <!-- New Message -->
+                  <div class="dropdown-list-image mr-3">
+                    <img class="rounded-circle" src="../../images/marisa kecil.jpg" alt=""><div class="status-indicator bg-success"></div>
+                  </div>
+                  <div class="font-weight-bold">
+                    <div class="text-truncate">Welcome to HackerJinja</div><div class="small text-gray-500">Yonathan Wieliem</div>
+                  </div>
+                </a>
+                <!-- Add New Message in here -->
+              </div> </li><div class="topbar-divider d-none d-sm-block"></div>
+  
+          </ul>
+        </nav>
+        <!-- End of Topbar -->
+
+        <!-- Begin Page Content -->
+        <div class="container-fluid">
+
+          <!-- SECTION CONTENT. FILL YOUR CONTENT IN HERE !!! -->
+          <div class="jumbotron bg-success text-white">
+            <!-- Page Heading/Breadcrumbs -->
+            <h1>Review Final Term</h1>
+        </div>
+        
+        
+        <ol class="breadcrumb ">
+          <li class="breadcrumb-item text-success">
+              <a class="text-success" href="../../index.html">Home</a>
+            </li>
+              <li class="breadcrumb-item "> Materi </li>
+            <li class="breadcrumb-item  "> <a class="text-success" href="menu-HCI.html">Human & Computer Interaction</a></li>
+            <li class="breadcrumb-item active ">Chapter-13 </li>
+        </ol>
+        <ol class="breadcrumb">
+          <marquee>[NOTICE] This is Just a Slight Review From Chapter 08 - 12</marquee>
+        </ol>
+
+      <!-- Content Row -->
+      <div class="row ">
+                  <!-- Sidebar Column -->
+                  <div class="col-lg-3 mb-4 ">
+                    <div class="list-group">
+                      <a href="HCI-01.html" class="list-group-item text-success">Interaction Design</a>
+                      <a href="HCI-02.html" class="list-group-item text-success">Understanding & Conceptualizing Interaction</a>
+                      <a href="HCI-03.html" class="list-group-item text-success">Cognitive Aspects</a>
+                      <a href="HCI-04.html" class="list-group-item text-success">Social Interaction</a>
+                      <a href="HCI-05.html" class="list-group-item text-success">Emotional Interaction</a>
+                      <a href="HCI-06.html" class="list-group-item text-success">Interfaces</a>
+                      <a href="HCI-07.html" class="list-group-item text-success">Review Mid Term</a>
+                      <a href="HCI-08.html" class="list-group-item text-success">Establishing Requirements</a>
+                      <a href="HCI-09.html" class="list-group-item text-success">Data Analysis, Interpretation, Presentation</a>
+                      <a href="HCI-10.html" class="list-group-item text-success">Design, Prototyping, Construction</a>
+                      <a href="HCI-11.html" class="list-group-item text-success">Basic Evaluation</a>
+                      <a href="HCI-12.html" class="list-group-item text-success">Advanced Evaluation</a>
+                      <a href="HCI-13.html" class="list-group-item active-success text-white bg-success">Review Final Term</a>
+                      <!-- active -->
+                           
+                          </div>
+                        </div>
+                        <!-- Content Column -->
+                        <div class="col-lg-9 mb-4">
+                          
+                          <!-- Isi materi disini ya -->
+                          <p class="lead text-success">Establishing Requirements</p><hr>
+                          <p class="lead">Jenis requirements</p>
+                          <p>
+                             <b> •	Functional Requirements</b><br>
+                              Apa yg hrs dilakukan si produk? <br><br>
+                              
+                             <b> •	Data Requirements</b><br>
+                              menangkap jenis, volatilitas, ukuran / jumlah, persistensi, akurasi, dan value data yang diperlukan.
+                              <br><br>
+
+                             <b> •	Environmental Requirements</b><br>
+                              lihat keadaan di mana produk interaktif akan beroperasi.<br><br>
+                              
+                             <b>•	Karakteristik user</b> <br>
+                              menangkap atribut kunci dari grup pengguna yang dituju.<br><br>
+                              
+                              <b>•	Persona </b><br>
+                              deskripsi kaya dari pengguna tipikal dari produk yang sedang dikembangkan dimana para desainer dapat fokus dan mendesain produk tersebut. Persona akan mencakup uraian tentang keterampilan, sikap, tugas, dan lingkungan pengguna.
+                              <br><br>
+
+                              <b>•	Usability Goals & UX Goals</b><br>
+                              Ini adalah persyaratan lain dan harus ditangkap bersama dengan tindakan yang sesuai.
+                              <br>
+
+                          </p><br><br>
+
+
+                          <p class="lead">Guideline buat data gathering:</p>
+                          •	Fokus pada identifikasi kebutuhan stakeholder
+                         <br> •	Libatkan semua kelompok stakeholder
+                         <br> •	Melibatkan lebih dari satu perwakilan dari masing-masing kelompok stakeholder terutama jika kelompok itu besar.
+                         <br> •	Mendukung sesi pengumpulan data dengan alat peraga yang sesuai, seperti deskripsi tugas dan prototipe jika tersedia.
+                        <br><br>
+                          
+                        <p class="lead">Task Description & Task Analysis</p>
+                        <p>
+                          Task Description itu memakai skenario, use case dan task cases. <br>
+                          Dalam task cases ada user intention dan system responisibility yg harus dijalankan.<br>
+                          <br>
+                          Task analysis itu pake HTA - Hierarchial Task Analysis dimana dia
+                          ngebreak down 1 task jd sub task, dan subtask tsb masih bs dipecah jd ada sub-sub-task
+                        
+                        </p><br><br>
+
+                        <p class="lead text-success">Data Analysis, Interpretation, Presentation</p><hr>
+                        <p class="lead">Kualitatif VS Kuantitatif</p>
+                        <p>
+                        
+                        •	Kuantitatif<br>
+                        Data yang berupa angka, atau yang dapat dengan mudah diterjemahkan menjadi angka.
+                        <br><br>
+                        Contoh: pengalaman bertahun-tahun yang dimiliki oleh orang yang diwawancarai
+                        <br><br>
+                        •	Kualitatif<br>
+                        Tidak bisa dinyatakan dalam bentuk angka.<br><br>
+                        Contoh: kutipan dari orang yang diwawancarai, sketsa kegiatan, dan gambar
+                        </p><br><br>
+                        
+
+                        <p class="lead">Jenis-jenis dari analisa data</p> 
+                        <p>
+                        Ada tiga jenis analisis kualitatif secara simple:<br>
+                        •	Mengidentifikasi pola atau tema yang berulang<br>
+                        •	Kategorisasi data<br>
+                        •	Menganalisis kejadian kritis<br>
+                        <br>
+                        Tekniknya analisis kuantitatif secara simple hanya average dan persentase. Disini  average itu masih dibagi 3, yaitu mean, median, dan modus
+                        </p>
+
+                        Alat untuk mendukung organisasi dan manipulasi data meliputi:<br>
+                        •	fasilitas untuk kategorisasi<br>
+                        •	Analisis berbasis tema<br>
+                        •	Analisis kuantitatif<br>
+
+                        <br><br>
+
+                        <p class="lead text-success">Design, Prototyping, Construction</p><hr>
+                        <p>
+                          - Design ada 2 macam, conceptual dan physical. <br>
+                          - utk bisa melakukan evaluasi sebuah produk interaktif maka kita butuh prototype.<br>
+                          - Design punya 2 keadaan yang berbeda, entah dia didesain dari awal, atau memodifikasi desain yang udah ada sebelumnya.
+                          - Prototyping dibagi jadi 2 jenis, high fidelity dan low fidelity. untuk lebih jelasnya cek <a href="HCI-10.html">ini</a>
+                          <br>
+
+                        </p>
+                        <br><br>
+                        <p class="lead text-success">Basic Evaluation</p><hr>
+                        <p class="lead">
+                          Tiga klasifikasi evaluasi tergantung pada pengaturan, keterlibatan pengguna dan tingkat kontrol:
+                        </p>
+                        <p>
+                         <b> 1.	Controlled settings involving users ( ex : laboratory & living labs)</b><br>
+                          Pengaturan yang dikontrol memungkinkan evaluator untuk mengontrol apa yang dilakukan pengguna, kapan mereka melakukannya, dan untuk berapa lama. Juga memungkinkan mereka untuk mengurangi pengaruh luar dan gangguan. Metode utamanya adalah menggunakan usability testing dan melakukan experiment. Usability testing sendiri melibatkan kita utk mengumpulkan data dengan berbagai kombinasi metode. 
+                          <br><br>
+                          <b>2.	Natural settings involving users ( ex : online communities & public places)</b><br>
+                          Metode utamanya adalah dengan memakai “field study”. Biasanya digunakan untuk: 
+                          <br>•	Bantu mengidentifikasi peluang untuk teknologi baru
+                          <br>•	Menetapkan persyaratan untuk desain baru
+                          <br>•	Memfasilitasi pengenalan teknologi atau menginformasikan penyebaran teknologi yang ada dalam konsep-konsep baru.
+                            Metode dalam field studynya sendiri memakai metode observasi, 	interview dan logging. 
+                          <br><br>
+                          
+                            <b>3.	Any setting not involving users ( ex : consultants, researchers critique)</b><br>
+                          Metode yang dipakai biasanya adalah:<br>
+                          •	Inspection – utk memprediksi behaviour user dan utk mengetahui apa sih problem dalam usability design.
+                         <br><br> •	Walkthrough yang melibatkan kita utk masuk ke dalam skenario atau utk menjawab kumpulan pertanyaan utk prototip yg lebih detail.
+                         <br><br> •	Analytics- teknik logging data baik dari sisi client ato via remote. Inti dari analytics adalah dari hasil logging ini kita mau tau apa yang user banyak lakukan , misal kebanyakan akses fitur apa aja, apa yang dia cari, gitu2 (kasarnya data kalian di-mining)
+                          
+                              </p>
+                          <br><br>
+                          <p class="lead">Framework Guide Evaluation (DECIDE framework)</p>
+                          <p>
+                          1.	Determine the goals
+                          <br>2.	Explore the questions
+                          <br>3.	Choose the evaluation methods
+                          <br>4.	Identify the practical issue
+                          <br>5.	Decide how to deal with the ethical issues
+                          <br>6.	Evaluate, analyze, interpret, and present the data
+                          </p>
+
+                          <br><br>
+                          <p class="lead text-success">Advanced Evaluation</p><hr>
+                          <p>
+                            Silakan baca semua materi <a href="HCI-12.html">bab 12. </a>
+                            <br><br>
+                            <i>** Catatan:
+                              Untuk Evaluasi UI silakan dicek ke <a href="EX-01.html">sini</a>. 
+
+                            <br><br>
+                            Kisi-kisi ini akan segera diupdate menjelang UAS HCI nanti. 
+                            </i>
+                          </p>
+
+
+
+
+
+
+
+
+
+
+
+
+                        </div>
+                          <!-- End of Column Content -->
+      </div>
+
+        <!-- END OF SECTION CONTENTS -->
+        </div>
+        <!-- /.container-fluid -->
+      </div>
+      <!-- End of Main Content -->
+      <!-- Footer -->
+      <footer class="sticky-footer bg-white"><div class="container my-auto"><div class="copyright text-center my-auto">
+            <span>Copyright &copy; Shinichi Nazakato 2019</span>
+          </div></div>
+      </footer>
+      <!-- End of Footer -->
+    </div>
+    <!-- End of Content Wrapper -->
+  </div>
+  <!-- End of Page Wrapper -->
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded" href="#page-top"><i class="fas fa-angle-up"></i></a>
+ <!-- JS SCRIPTS -->
+  <script src="../../vendor/jquery/jquery.min.js"></script><script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script><script src="../../vendor/jquery-easing/jquery.easing.min.js"></script><script src="../../js/sb-admin-2.min.js"></script>
+</body></html>
+
+
